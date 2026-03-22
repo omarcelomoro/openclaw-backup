@@ -1,0 +1,12 @@
+# Arquivos sensíveis - nunca commitar
+*.bak
+*.env
+.env*
+openclaw.json.bak
+
+# Mídia recebida
+media/
+
+# Cache e logs
+*.log
+.openclaw/
