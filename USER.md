@@ -157,5 +157,66 @@ Referências: Fernando Batalha e Wellington WK (ambos usam esse formato com suce
 
 ---
 
-*Quanto mais contexto aqui, melhor o Smart atende.*
+---
+
+## Perfil Expandido
+*Atualizado: 24/03/2026*
+
+### Localização
+- Vila Velha, Espírito Santo, Brasil
+
+### Expertise Profissional
+- **Analista fundamentalista certificado** — avaliação de saúde financeira e riscos
+- **Corretor de seguros** — ênfase em avaliação de riscos e conteúdo persuasivo de vendas
+- **Consultor B2B** — desenvolvimento de novos modelos de negócios no Brasil
+- **Empreendedor digital** — criador de conteúdo especializado em marketing de produtos financeiros
+
+### Empresa
+- **Leevre Corretora** — em processo de rebranding
+
+### Interesses e Habilidades
+
+**Marketing Digital:**
+- Criação de conteúdo viral para Instagram e TikTok
+- Hooks persuasivos para públicos de alta renda
+- Estratégias de growth e viralização
+
+**Vendas e Consórcios:**
+- Prospecção mista PF/PJ
+- Todos os segmentos: veículos, imóveis, capital de giro
+- Foco em construção de patrimônio via alavancagem inteligente
+
+**Investimentos:**
+- Estratégias conservadoras de baixo risco: Tesouro Selic, CDBs ≥100% CDI
+- Resgates D+0/D+1
+- Educação financeira para públicos que buscam alavancagem patrimonial
+
+**Conteúdo:**
+- Roteiros virais para Reels (até 60s)
+- Tom filosófico / advisory / psicológico
+- Autoridade via scripts originais e impactantes
+
+**Tecnologia:**
+- Uso avançado de IA para copywriting, geração de PDFs, chatbots e otimização de vendas
+- Avaliação de CRMs com integrações (email/WhatsApp)
+
+**Ambiente de Trabalho:**
+- Escritório formal e clássico — projeta luxo, autoridade e competência
+- Layout com mesas L-shaped e objetos posicionados contra a parede
+
+### Estilo de Comunicação
+- Direto, consultivo, sem rodeios
+- Mentalidade de "crise ligada sempre"
+- Foco em liderança aspirante e quebra de paradigmas
+- Público-alvo: pessoas e empresários que constroem patrimônio via consórcio como alavancagem inteligente
+
+### Objetivos Recorrentes
+- Viralização de conteúdo para milhões de views e autoridade em finanças e marketing
+- Otimização de pitches (networking e Instagram) e simulações de consórcios
+- Investimentos conservadores com alto retorno relativo e liquidez imediata
+- Automação de processos de venda com IA
+
+---
+
+*Quanto mais contexto aqui, melhor a Livri atende.*
 *Próxima revisão: 30 dias*
