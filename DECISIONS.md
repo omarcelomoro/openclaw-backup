@@ -29,6 +29,9 @@ Senhas são salvas no `.env` do servidor, nunca em IDENTITY.md, MEMORY.md ou qua
 ### Conteúdo externo sempre adaptado (23/03/2026)
 Roteiros e conteúdos baseados em material de terceiros (Batalha, Wellington WK, etc.) são sempre reescritos com contexto, números e exemplos próprios. Nunca copiar diretamente — adaptar pra voz do Marcelo e evitar plágio.
 
+### Otimização de tokens no startup (26/03/2026)
+Carregar apenas SOUL.md, USER.md, IDENTITY.md e memory/YYYY-MM-DD.md no início de cada sessão. Demais arquivos (DECISIONS, LESSONS, PENDING, PEOPLE, PROJECTS) são carregados sob demanda via `memory_search()`. Reduz contexto de ~50KB para ~8KB por sessão (~80% de economia).
+
 ---
 
 *Atualizado: 26/03/2026*

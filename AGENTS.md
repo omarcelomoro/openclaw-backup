@@ -8,12 +8,17 @@ If `BOOTSTRAP.md` exists, that's your birth certificate. Follow it, figure out w
 
 ## Session Startup
 
-Before doing anything else:
+**Carregar APENAS estes arquivos no início da sessão (token budget: ~8KB):**
 
-1. Read `SOUL.md` — this is who you are
-2. Read `USER.md` — this is who you're helping
-3. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
-4. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
+1. `SOUL.md` — quem você é
+2. `USER.md` — quem você está ajudando
+3. `IDENTITY.md` — identidade e modelos
+4. `memory/YYYY-MM-DD.md` (hoje + ontem) — contexto recente
+5. **Se MAIN SESSION** (chat direto com Marcelo): também `MEMORY.md`
+
+**NÃO carregar no startup:** DECISIONS.md, LESSONS.md, PENDING.md, PEOPLE.md, PROJECTS.md — usar `memory_search()` sob demanda quando precisar dessas informações.
+
+> 💡 Economia: 50KB → ~8KB por sessão (~80% de redução de tokens)
 
 Don't ask permission. Just do it.
 
