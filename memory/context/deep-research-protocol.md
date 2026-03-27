@@ -1,95 +1,106 @@
 ---
 name: deep-research-protocol
 description: >
-  Use quando pedir: "pesquisa sobre", "deep research", "investiga",
-  "analisa o mercado de", "benchmark", "quero entender melhor",
-  "análise de concorrentes", "me dá um overview de".
+  Protocolo estruturado de pesquisa profunda com múltiplas fontes, síntese e relatório
+  acionável. Usar quando Marcelo pedir pesquisa detalhada, análise de mercado, investigação
+  de tema ou benchmarking. Acionar quando: "pesquisa sobre", "deep research", "investiga",
+  "analisa o mercado de", "benchmark", "quero entender melhor", "pesquisa profunda",
+  "me dá um overview de", "análise de concorrentes". Para pesquisas complexas (>30min),
+  spawnar como sub-agent.
+metadata:
+  version: 1.0.0
+  domain: shared
 ---
 
-# Deep Research Protocol
+# Deep Research Protocol — Skill de Pesquisa Profunda
 
-## Protocolo (executar em ordem)
+## O que é
 
-### 1. ENQUADRAMENTO (2 min)
-- Qual a pergunta exata que estou respondendo?
+Protocolo estruturado para pesquisa profunda. Combina múltiplas fontes, sintetiza findings, e entrega relatório acionável.
+
+## Protocolo de Pesquisa
+
+### 1. Enquadramento (2 min)
+- Qual a pergunta exata?
 - Qual decisão essa pesquisa vai informar?
-- Profundidade: quick scan (5-10 min) | standard (15-30 min) | deep dive
+- Qual nível de profundidade? (Quick scan vs Deep dive)
 
-### 2. COLETA MULTI-FONTE
+### 2. Coleta Multi-fonte
 
-Fontes primárias (nesta ordem):
-1. web_search — varredura geral (Brave)
-2. web_fetch — extrair conteúdo das URLs mais relevantes
+**Fontes primárias (usar nesta ordem):**
+1. `web_search` — busca geral (Brave API — configurada no VPS)
+2. `web_fetch` — extrair conteúdo de URLs relevantes
 3. Knowledge Base — se tiver conteúdo relevante já ingestado
 
-Fontes especializadas (quando relevante):
+**Fontes especializadas:**
 - Reddit/HackerNews — opinião de comunidade técnica
 - Twitter/X — sinais em tempo real
-- YouTube — análises longas
+- YouTube — análises longas e tutoriais
+- GitHub — repos e projetos open source
 
-### 3. SÍNTESE
+### 3. Síntese
 
-Para cada fonte, classificar:
-- FATO → confirmável, com fonte
-- OPINIÃO → interpretação, marcar como tal
-- SINAL → sugere tendência, monitorar
+Para cada fonte:
+- **FATO** — o que é confirmável, com fonte
+- **OPINIÃO** — o que é interpretação, marcar como tal
+- **SINAL** — o que sugere tendência, monitorar
 
-### 4. RELATÓRIO (formato padrão)
+### 4. Relatório
 
-```
+**Formato padrão:**
+
+```markdown
 # [Tema] — Deep Research
 Data: DD/MM/YYYY
 
-## TL;DR
-- [3-5 bullets com o essencial]
+## TL;DR (3-5 bullets)
 
 ## Contexto
-[Por que estamos pesquisando / qual decisão isso informa]
+[Por que estamos pesquisando isso / qual decisão isso informa]
 
 ## Findings
-
 ### [Subtema 1]
 - Finding + fonte
-
 ### [Subtema 2]
 - Finding + fonte
 
 ## Análise
-[Cruzamento dos findings, padrões, o que significa]
+[Cruzamento dos findings, padrões identificados, o que significa]
 
 ## Recomendação
 [O que fazer com essa informação]
 
 ## Fontes
-1. [URL 1]
-2. [URL 2]
+[Lista de URLs consultadas]
 ```
 
-### 5. SALVAMENTO
+### 5. Salvamento
 - Salvar em `memory/research/YYYY-MM-DD-[slug].md`
 
 ---
 
-## Níveis de profundidade
+## Níveis de Profundidade
 
-| Nível      | Tempo      | URLs     | Saída                        |
-|------------|------------|----------|------------------------------|
-| Quick scan | 5-10 min   | 3-5      | 1 parágrafo + bullets        |
-| Standard   | 15-30 min  | 8-12     | Relatório 1-2 páginas        |
-| Deep dive  | 30-60 min  | 15-20    | Relatório 3-5 páginas        |
+| Nível      | Tempo      | Fontes    | Output                        |
+|------------|------------|-----------|-------------------------------|
+| Quick scan | 5-10 min   | 3-5 URLs  | 1 parágrafo + bullets         |
+| Standard   | 15-30 min  | 8-12 URLs | Relatório 1-2 páginas         |
+| Deep dive  | 30-60 min  | 15-20+ URLs | Relatório 3-5 páginas       |
+
+---
+
+## Quando spawnar sub-agent
+
+Se a pesquisa é deep dive (>30min) ou Marcelo quer continuar trabalhando enquanto a pesquisa roda:
+- Spawnar via `sessions_spawn` com task detalhada
+- Sub-agent entrega relatório quando pronto
+- Livri revisa e envia para Marcelo
 
 ---
 
 ## Vieses a evitar
-- **Confirmation bias** → buscar ativamente contra-argumentos
-- **Recency bias** → verificar se tendências são reais ou hype
-- **Survivorship bias** → buscar casos de fracasso, não só sucesso
 
----
-
-## Prompts que ativam este protocolo
-- "Deep research: ferramentas de automação para WhatsApp no Brasil"
-- "Analisa o mercado de cursos online de IA em 2026"
-- "Pesquisa os 5 maiores concorrentes do [produto]"
-- "Investiga por que a [empresa X] cresceu tão rápido"
-- "Benchmark: como os melhores SaaS de [categoria] fazem onboarding?"
+- **Confirmation bias** — buscar contra-argumentos ativamente
+- **Recency bias** — verificar se tendências são reais ou hype
+- **Survivorship bias** — buscar casos de fracasso, não só sucesso
+- **Authority bias** — expert disse ≠ é verdade
