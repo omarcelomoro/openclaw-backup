@@ -1,62 +1,83 @@
 # MEMORY.md — Livri 🐝
 
-> Índice da memória. Conteúdo detalhado vive nos topic files em `memory/`.
+> Índice geral — sempre carregado na sessão principal.
+> Conteúdo detalhado vive nos topic files. Busca via `memory_search()`.
 
-## 📂 Topic Files
+## 📂 Estrutura
 
-| Arquivo | O que contém |
-|---------|-------------|
-| `memory/projects.md` | Projetos ativos e concluídos |
-| `memory/decisions.md` | Decisões permanentes com contexto |
-| `memory/lessons.md` | Lições aprendidas, erros, padrões |
-| `memory/people.md` | Equipe, parceiros, contatos |
-| `memory/pending.md` | Aguardando input |
-| `memory/YYYY-MM-DD.md` | Notas diárias (raw capture) |
+```
+memory/
+├── MEMORY.md                    ← índice geral (sempre carregado)
+│
+├── context/                     ← tudo que não muda rápido
+│   ├── decisions.md             ← regras permanentes do agente
+│   ├── lessons.md               ← erros e aprendizados
+│   ├── people.md                ← equipe, fornecedores, parceiros
+│   ├── pending.md               ← pendências aguardando decisão
+│   └── business-context.md      ← contexto dos negócios
+│
+├── projects/                    ← um arquivo por projeto ativo
+│   ├── infraestrutura-livri.md
+│   ├── conteudo-digital.md
+│   ├── estruturacao-leevre.md
+│   └── rebranding-leevre.md
+│
+├── content/                     ← específico para produção de conteúdo
+│   ├── voice/
+│   │   ├── instagram.md         ← guia de tom de voz por plataforma
+│   │   └── youtube.md
+│   ├── ideas.md                 ← ideias de conteúdo
+│   └── drafts/                  ← rascunhos de posts, scripts
+│
+├── integrations/                ← mapa de ferramentas e acessos
+│   ├── telegram-map.md          ← IDs dos grupos e tópicos
+│   └── credentials-map.md       ← onde cada credencial fica
+│
+└── sessions/                    ← diário (um arquivo por dia/tema)
+    └── 2026-03-26.md
+```
 
 ## 🔄 Ciclo de Memória
 
 ```
-Sessão (conversa) → memory/YYYY-MM-DD.md (raw)
+Sessão → sessions/YYYY-MM-DD.md (raw)
  ↓ consolidação periódica
- Topic files (curado)
+ context/ + projects/ + content/ (curado)
  ↓ índice atualizado
- MEMORY.md (sumário)
+ MEMORY.md
 ```
 
 ## 📸 Estado Atual (26/03/2026)
 
 ### Projetos Ativos
-- **Infraestrutura Livri** — VPS rodando, email pendente (Google Workspace)
-- **Conteúdo Digital** — scripts prontos, estatísticas imobiliárias aguardando formato
-- **Estruturação Leevre** — CRM não definido, processos a mapear
-- **Rebranding Leevre** — planejamento
+- **Infraestrutura Livri** → `memory/projects/infraestrutura-livri.md`
+- **Conteúdo Digital** → `memory/projects/conteudo-digital.md`
+- **Estruturação Leevre** → `memory/projects/estruturacao-leevre.md`
+- **Rebranding Leevre** → `memory/projects/rebranding-leevre.md`
 
-### Pendências
+### Pendências principais
 - Email `livri@leevrecorretora.com.br` — aguarda decisão Google Workspace
 - Bitwarden self-hosted — aguarda confirmação
 - CRM — não definido ainda
 - Agger API — verificar documentação
 
----
+## 🧠 Como usar
 
-## Preferência: Compactação Automática de Contexto
-- Quando o contexto atingir **95%** da janela, executar `/compact` automaticamente
+- `memory_search("termo")` — busca semântica em todos os arquivos
+- `memory_get("memory/context/decisions.md")` — lê o trecho relevante
+- Novas sessões → `memory/sessions/YYYY-MM-DD.md`
+- Projeto novo → `memory/projects/nome.md`
+- Ideia de conteúdo → `memory/content/ideas.md`
+- Draft de post/script → `memory/content/drafts/`
+
+## ⚡ Regras de Memória
+
+1. Notas diárias: `memory/sessions/YYYY-MM-DD.md` a cada sessão relevante
+2. Projetos: um arquivo separado por projeto em `memory/projects/`
+3. **INVIOLÁVEL:** antes de compactar → extrair lições, decisões e pendências
+4. Carregar no startup: SOUL.md, USER.md, IDENTITY.md, sessions/ (hoje+ontem)
+5. Demais arquivos: buscar sob demanda via `memory_search()`
+
+## Preferência: Compactação Automática
+- Quando o contexto atingir **95%** da janela, executar `/compact`
 - Registrado em: 25/03/2026
-## Silent Replies
-When you have nothing to say, respond with ONLY: NO_REPLY
-⚠️ Rules:
-- It must be your ENTIRE message — nothing else
-- Never append it to an actual response (never include "NO_REPLY" in real replies)
-- Never wrap it in markdown or code blocks
-❌ Wrong: "Here's help... NO_REPLY"
-❌ Wrong: "NO_REPLY"
-✅ Right: NO_REPLY
-## Heartbeats
-Heartbeat prompt: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.
-If you receive a heartbeat poll (a user message matching the heartbeat prompt above), and there is nothing that needs attention, reply exactly:
-HEARTBEAT_OK
-OpenClaw treats a leading/trailing "HEARTBEAT_OK" as a heartbeat ack (and may discard it).
-If something needs attention, do NOT include "HEARTBEAT_OK"; reply with the alert text instead.
-## Runtime
-Runtime: agent=main | host=srv1516544 | repo=/root/.openclaw/workspace | os=Linux 6.8.0-106-generic (x64) | node=v22.22.1 | model=anthropic/claude-sonnet-4-6 | default_model=anthropic/claude-sonnet-4-6 | shell=bash | channel=telegram | capabilities=inlineButtons | thinking=medium
-Reasoning: off (hidden unless on/stream). Toggle /reasoning; /status shows Reasoning when enabled.

@@ -32,6 +32,12 @@ Roteiros e conteúdos baseados em material de terceiros (Batalha, Wellington WK,
 ### Otimização de tokens no startup (26/03/2026)
 Carregar apenas SOUL.md, USER.md, IDENTITY.md e memory/YYYY-MM-DD.md no início de cada sessão. Demais arquivos (DECISIONS, LESSONS, PENDING, PEOPLE, PROJECTS) são carregados sob demanda via `memory_search()`. Reduz contexto de ~50KB para ~8KB por sessão (~80% de economia).
 
+### GOG CLI como interface Google Workspace (26/03/2026)
+`gog` é a ferramenta oficial pra acessar Gmail, Calendar e Drive. Duas contas autenticadas: `atendimento@leevrecorretora.com.br` (Livri) e `marcelo@leevrecorretora.com.br` (Marcelo). Detalhes em `memory/integrations/gog.md`. Variáveis no `.env`.
+
+### Arquitetura de memória em subpastas (26/03/2026)
+Memória organizada em `memory/context/`, `memory/projects/`, `memory/content/`, `memory/integrations/`, `memory/sessions/`. Um arquivo por projeto em `projects/`. Busca semântica via `memory_search()`. Carregar apenas `sessions/` no startup — demais arquivos sob demanda.
+
 ---
 
 *Atualizado: 26/03/2026*

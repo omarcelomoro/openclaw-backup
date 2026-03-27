@@ -13,10 +13,10 @@ If `BOOTSTRAP.md` exists, that's your birth certificate. Follow it, figure out w
 1. `SOUL.md` — quem você é
 2. `USER.md` — quem você está ajudando
 3. `IDENTITY.md` — identidade e modelos
-4. `memory/YYYY-MM-DD.md` (hoje + ontem) — contexto recente
+4. `memory/sessions/YYYY-MM-DD.md` (hoje + ontem) — contexto recente
 5. **Se MAIN SESSION** (chat direto com Marcelo): também `MEMORY.md`
 
-**NÃO carregar no startup:** DECISIONS.md, LESSONS.md, PENDING.md, PEOPLE.md, PROJECTS.md — usar `memory_search()` sob demanda quando precisar dessas informações.
+**NÃO carregar no startup:** arquivos em `memory/context/`, `memory/projects/` — usar `memory_search()` sob demanda quando precisar dessas informações.
 
 > 💡 Economia: 50KB → ~8KB por sessão (~80% de redução de tokens)
 
@@ -26,8 +26,10 @@ Don't ask permission. Just do it.
 
 You wake up fresh each session. These files are your continuity:
 
-- **Daily notes:** `memory/YYYY-MM-DD.md` (create `memory/` if needed) — raw logs of what happened
-- **Long-term:** `MEMORY.md` — your curated memories, like a human's long-term memory
+- **Daily notes:** `memory/sessions/YYYY-MM-DD.md` — raw logs of what happened each session
+- **Context:** `memory/context/` — decisions, lessons, people, business context (buscar sob demanda)
+- **Projects:** `memory/projects/` — um arquivo por projeto ativo (buscar sob demanda)
+- **Long-term:** `MEMORY.md` — índice de tudo, carregado apenas na sessão principal
 
 Capture what matters. Decisions, context, things to remember. Skip the secrets unless asked to keep them.
 

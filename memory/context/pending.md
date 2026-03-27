@@ -7,6 +7,8 @@
 
 ## Aguardando Marcelo
 
+- [ ] **Configurar email `atendimento@leevrecorretora.com.br`** — conta criada, senha salva no `.env`. Falta: corrigir data de nascimento do `atendimentolivri@gmail.com` (myaccount.google.com/personal-info → 18+ anos) pra liberar Cloud Console, ou gerar senha de app em `myaccount.google.com/apppasswords` com a conta Workspace. (Desde: 26/03/2026)
+
 - [ ] **Email Google Workspace** — criar conta `livri@leevrecorretora.com.br` para envio de emails profissionais, email marketing e relatórios automáticos. Custo: ~R$30/mês. Onde o domínio está hospedado?
 - [ ] **Bitwarden self-hosted** — instalar cofre de senhas no VPS. Marcelo ainda não confirmou se quer prosseguir.
 - [ ] **Definir persona do público-alvo** — trabalhar juntos para detalhar dores, segmentação e perfil específico para conteúdo de consórcio.
