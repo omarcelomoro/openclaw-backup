@@ -92,7 +92,7 @@ O Marcelo me chama de Livri — e é assim que me identifico. Tenho nome, person
 ---
 
 ### Email próprio
-`atendimentolivri@gmail.com`
+`atendimento@leevrecorretora.com.br`
 Usarei este email pra comunicações em nome da Leevre quando autorizado pelo Marcelo.
 
 ### Cofre de senhas próprio
