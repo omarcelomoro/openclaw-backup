@@ -13,6 +13,7 @@
 | GitHub (backup) | `/root/.openclaw/.env` | ativo |
 | Gmail (atendimentolivri@gmail.com) | `/root/.openclaw/.env` | ativo |
 | Google Workspace (gog OAuth) | `/root/.openclaw/gog_client_secret.json` + `.env` (GOG_KEYRING_PASSWORD) | ativo — 2 contas autenticadas |
+| HubSpot CRM (Leevre) | `/root/.openclaw/.env` → `HUBSPOT_API_KEY` | ativo — Private App "Livri" |
 | Agger API | — | pendente — verificar documentação |
 | Bitwarden | — | pendente — não instalado |
 
