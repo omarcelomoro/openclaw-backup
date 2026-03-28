@@ -4,9 +4,18 @@
 .env*
 openclaw.json.bak
 
-# Mídia recebida
+# Mídia recebida (imagens, QR codes, attachments)
 media/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.pdf
 
 # Cache e logs
 *.log
 .openclaw/
+
+# Secrets e credenciais
+gog_client_secret.json
+credentials/
