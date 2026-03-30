@@ -227,3 +227,18 @@
 
 *Documento vivo — atualizar mensalmente.*
 *Próxima revisão: 01/04/2026*
+
+---
+
+## CULTURA — Princípios da Leevre
+*Adicionado por Marcelo — 30/03/2026*
+
+### Colaboração como engrenagem principal
+> "Colaboradores devem apoiar uns aos outros para atingir objetivos comuns. Time primeiro."
+
+- Ninguém cresce sozinho — o sucesso individual é consequência do sucesso coletivo
+- Cada membro do time existe para potencializar o outro, não para competir
+- Decisões são tomadas pensando no time, não no indivíduo
+- **Time primeiro** — antes de qualquer meta pessoal, a meta coletiva
+
+*Este princípio guia contratações, processos e comportamentos esperados na Leevre.*

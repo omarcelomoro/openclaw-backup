@@ -49,3 +49,21 @@ Objetivo: criar presença digital, gerar leads online e automatizar o funil de v
 3. Criar landing page de captura de leads
 4. Estruturar fluxo de email marketing
 5. Ativar tráfego pago após funil validado manualmente
+
+## Pendência adicionada — 30/03/2026
+
+### To-do: Integração Slack + CRM + Automação SDR→BDR
+
+**Objetivo:** SDR (agente IA) qualifica lead → preenche CRM automaticamente → BDR recebe lead quente com contexto completo
+
+**Decisões que precisam ser tomadas primeiro:**
+1. Qual CRM? (HubSpot Free, RD Station, Pipedrive — decidir antes de integrar)
+2. Quer usar Slack interno ou só WhatsApp + Telegram?
+3. SDR será agente IA (Evolution API) ou humano inicialmente?
+
+**Stack proposta (após decisão de CRM):**
+- Evolution API (WhatsApp) → n8n → CRM → notifica BDR no Slack/Telegram
+- Agente IA qualifica via WhatsApp → extrai: nome, renda, produto de interesse, urgência → cria card no CRM
+- BDR recebe card já preenchido com score do lead
+
+**Bloqueia:** definição do CRM
