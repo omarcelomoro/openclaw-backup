@@ -1,69 +1,42 @@
-# Projeto: Funil Digital & Automação
+# Funil Digital Leevre — Stack de Marketing
 
-**Status:** backlog
-**Criado:** 27/03/2026
+*Atualizado: 31/03/2026*
 
----
+## Infraestrutura (VPS)
 
-## Contexto
+| Serviço | Porta | Status |
+|---------|-------|--------|
+| Evolution API (WhatsApp) | 8080 | ✅ Online |
+| n8n (automações) | 5678 | ✅ Online |
+| HubSpot (CRM) | cloud | ✅ Conectado |
 
-Hoje 99% das vendas do Marcelo são offline via rede de relacionamento.
-Objetivo: criar presença digital, gerar leads online e automatizar o funil de vendas.
+## Canais de Distribuição
 
-## Canais e Fontes de Lead
+| Canal | Ferramenta | Status |
+|-------|-----------|--------|
+| WhatsApp | Evolution API v1.8.7 | ✅ Conectado |
+| Email Marketing | Brevo | ⏳ Aguardando API key |
+| Meta Ads | Pixel | ⏳ A configurar |
+| Telegram Marketing | Bot OpenClaw | ✅ Chat -1003706469372 / Tópico 6 |
 
-- **Atual:** 100% offline — rede de relacionamento pessoal
-- **Futuro:** Instagram, TikTok, tráfego pago (Meta Ads / Google Ads), email, indicação
+## Base de Clientes
 
-## Componentes do Projeto
+- **955 registros** — 2021 a 2026
+- **Sheet completo:** https://docs.google.com/spreadsheets/d/1Qe8mU9qatyjFEa5itvuDe5tebYGp4H3uLLzydUIXyiQ/edit
+- **Renovações 90 dias:** https://docs.google.com/spreadsheets/d/13x9DTU_gG5RvFhyINk3FJhBVGvjMNu8xBHPCMzuGvvg/edit
+  - 🔴 35 vencendo em Abril/2026
+  - 🟢 18 vencendo em Maio-Junho/2026
 
-### 1. WhatsApp Business API
-- Marcelo usa WhatsApp Business (não o comum) — ✅ já tem a base
-- Automação via **Z-API** ou **Evolution API** (self-hosted no VPS)
-- Fluxo: lead entra → bot qualifica → agenda reunião → CRM atualiza
+## Automações n8n (a construir)
 
-### 2. Gestão de Redes Sociais
-- Instagram @omarcelomoro + TikTok @omarcelo.moro
-- Crescimento orgânico + tráfego pago
-- Automação de postagens (Buffer, Later ou n8n)
-
-### 3. Email Marketing
-- Campanhas automatizadas
-- Plataforma a definir: Resend (já no radar), Mailchimp ou ActiveCampaign
-- Fluxos: boas-vindas, nurturing, follow-up pós-reunião
-
-### 4. Marketing de Indicação
-- Fluxo automatizado de referral
-- Estruturar mecanismo de recompensas para indicadores
-- Integrar com WhatsApp e email
-
-### 5. Tráfego Pago
-- Meta Ads (Instagram/Facebook)
-- Google Ads (busca por "consórcio imóvel [cidade]")
-- Pixel de conversão + CRM integrado
+1. **Alerta de renovação** — 30/15/7 dias antes → WhatsApp + email ao cliente
+2. **Notificação Marketing** — novos leads → Telegram grupo Marketing
+3. **Lead novo WhatsApp** → HubSpot (criar contato + deal)
+4. **Relatório semanal** → Telegram sexta 16h
 
 ## Próximos Passos
 
-1. Configurar WhatsApp Business API (Z-API ou Evolution API)
-2. Definir CRM (necessário antes de automatizar funil)
-3. Criar landing page de captura de leads
-4. Estruturar fluxo de email marketing
-5. Ativar tráfego pago após funil validado manualmente
-
-## Pendência adicionada — 30/03/2026
-
-### To-do: Integração Slack + CRM + Automação SDR→BDR
-
-**Objetivo:** SDR (agente IA) qualifica lead → preenche CRM automaticamente → BDR recebe lead quente com contexto completo
-
-**Decisões que precisam ser tomadas primeiro:**
-1. Qual CRM? (HubSpot Free, RD Station, Pipedrive — decidir antes de integrar)
-2. Quer usar Slack interno ou só WhatsApp + Telegram?
-3. SDR será agente IA (Evolution API) ou humano inicialmente?
-
-**Stack proposta (após decisão de CRM):**
-- Evolution API (WhatsApp) → n8n → CRM → notifica BDR no Slack/Telegram
-- Agente IA qualifica via WhatsApp → extrai: nome, renda, produto de interesse, urgência → cria card no CRM
-- BDR recebe card já preenchido com score do lead
-
-**Bloqueia:** definição do CRM
+- [ ] Brevo: cadastrar e obter API key
+- [ ] n8n: configurar workflows de renovação
+- [ ] Meta Ads: pixel no site + audiência customizada da base
+- [ ] Emails faltantes: coletar progressivamente via formulários/WhatsApp
