@@ -1,20 +1,22 @@
-# HEARTBEAT.md
+# HEARTBEAT.md — Livri 🐝
 
-## Checks periódicos (2-4x por dia)
+> Enxuto por design — cada item consome tokens.
 
-### Calendário do Marcelo
-```
-GOG_KEYRING_PASSWORD=Livrisualinda gog calendar events marcelo@leevrecorretora.com.br \
-  --from <hoje> --to <hoje+2dias> --account marcelo@leevrecorretora.com.br
-```
-- Avisar se tiver compromisso nas próximas 2h
-- Avisar vencimentos/boletos com antecedência de 1 dia
+## Checklist (a cada heartbeat)
 
-### Gmail do Marcelo
-- Verificar emails não lidos importantes (remetentes: administradoras, clientes, fornecedores)
-- Ignorar newsletters e notificações automáticas
+- [ ] Emails urgentes: `gogcli gmail search "is:unread is:important" -a marcelo@leevrecorretora.com.br`
+- [ ] Compromissos próximos (24-48h): `gogcli calendar events list -a marcelo@leevrecorretora.com.br`
+- [ ] Crons saudáveis (verificar se algum falhou)
 
-## Horário permitido
-- Apenas entre 09h30 e 17h30 (horário de Brasília)
-- Não perturbar almoço (~12h30-13h30)
-- Fora desse horário: HEARTBEAT_OK silencioso
+## Semanal (sexta-feira)
+
+- [ ] Revisar projetos ativos (memory/projects/)
+- [ ] Consolidar notas diárias em topic files
+- [ ] Atualizar MEMORY.md
+- [ ] Git commit + push para GitHub
+
+## Regras
+
+- **EVITAR notificações fora de 09:30–17:30 BRT** (produção protegida)
+- **Fins de semana:** silêncio, exceto urgências reais
+- Se nada precisa de atenção → `HEARTBEAT_OK`

@@ -1,78 +1,67 @@
-# OpenClaw — Smart (Backup de Configuração)
+# Livri 🐝 — Workspace da Leevre Corretora
 
-Repositório de backup automático das configurações do assistente **Smart** rodando em OpenClaw.
-
----
-
-## 🚀 Deploy em Novo Servidor / VPS
-
-### 1. Instalar o OpenClaw
-
-```bash
-npm install -g openclaw
-```
-
-### 2. Restaurar o workspace
-
-```bash
-cd /root/.openclaw
-git clone https://github.com/omarcelomoro/openclaw-backup.git workspace
-```
-
-### 3. Restaurar a configuração principal
-
-Copie o arquivo `openclaw.json.bak` para o local correto:
-
-```bash
-cp /root/.openclaw/workspace/openclaw.json /root/.openclaw/openclaw.json
-```
-
-> ⚠️ Edite o `openclaw.json` e reconfigure as chaves de API (Anthropic, Telegram, etc.) — elas não ficam no backup por segurança.
-
-### 4. Iniciar o gateway
-
-```bash
-openclaw gateway start
-```
-
-### 5. Reconectar o Telegram
-
-Configure o token do Telegram no OpenClaw:
-
-```bash
-openclaw configure
-```
-
-Siga o wizard e reconecte os canais.
+COO digital do Marcelo Moro. Cuida da operação, conteúdo, infraestrutura e memória da Leevre Corretora de Seguros.
 
 ---
 
-## 📁 Estrutura do Workspace
+## Estrutura do Repositório
 
-| Arquivo | Descrição |
-|---|---|
-| `SOUL.md` | Personalidade e valores do Smart |
-| `IDENTITY.md` | Nome, vibe e avatar |
-| `USER.md` | Informações sobre o Marcelo |
-| `AGENTS.md` | Regras de comportamento e memória |
-| `TOOLS.md` | Notas locais de ferramentas |
-| `HEARTBEAT.md` | Checklist de tarefas periódicas |
-| `MEMORY.md` | Memória de longo prazo (gerada em uso) |
-| `memory/` | Notas diárias (geradas em uso) |
-
----
-
-## 🔄 Backup Automático
-
-O backup é feito automaticamente todo dia via cron.
-Script: `/root/scripts/backup-openclaw.sh`
-
-Para rodar manualmente:
-
-```bash
-bash /root/scripts/backup-openclaw.sh
+```
+workspace/
+├── SOUL.md              # Personalidade e valores da Livri
+├── USER.md              # Perfil do Marcelo Moro
+├── IDENTITY.md          # Identidade, email, modelos de IA
+├── AGENTS.md            # Regras de operação e startup
+├── MEMORY.md            # Memória de longo prazo (índice)
+├── HEARTBEAT.md         # O que checar periodicamente
+├── TOOLS.md             # Ferramentas e configurações locais
+├── DECISIONS.md         # Decisões permanentes tomadas
+├── LESSONS.md           # Lições aprendidas
+├── PENDING.md           # Pendências ativas
+├── PEOPLE.md            # Equipe, parceiros, benchmarks
+├── PROJECTS.md          # Projetos ativos e backlog
+├── openclaw.sanitized.json  # Config OpenClaw (sem secrets)
+├── restore.sh           # Script de restauração em nova VPS
+│
+├── memory/              # Memória por data e tópico
+│   ├── 2026-MM-DD.md    # Notas diárias
+│   ├── context/         # Protocolos e contextos
+│   ├── projects/        # Detalhes de cada projeto
+│   └── research/        # Resultados de deep research
+│
+├── conteudo/            # Scripts, roteiros, calendário editorial
+│
+└── skills/              # Skills customizadas
+    ├── gog/             # Integração Google (gogcli)
+    └── openai-whisper-api/
 ```
 
 ---
 
-*Smart — Assistente do Marcelo Moro*
+## Infraestrutura
+
+- **VPS:** 187.77.247.207 (Ubuntu)
+- **OpenClaw:** gateway em loopback, acesso via SSH tunnel
+- **WhatsApp:** Evolution API v1.8.7 (Docker, porta 8080)
+- **Google:** gogcli v0.12.0, contas `marcelo@` e `atendimento@leevrecorretora.com.br`
+- **Backup:** cron diário 03:00 UTC → este repositório
+
+---
+
+## Restaurar em nova VPS
+
+```bash
+git clone https://github.com/omarcelomoro/openclaw-backup.git /root/.openclaw/workspace
+bash /root/.openclaw/workspace/restore.sh
+```
+
+Veja `restore.sh` para o passo a passo completo.
+
+---
+
+## Contexto do Negócio
+
+- **Empresa:** Leevre Corretora de Seguros
+- **Foco:** Consórcio imobiliário e seguros
+- **Meta 2026:** R$60M em consórcio (dobrar vs 2025)
+- **Administradoras:** Itaú, Bradesco, Servopa, Porto

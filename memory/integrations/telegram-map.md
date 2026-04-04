@@ -22,3 +22,9 @@
 
 ---
 *Adicionar novos grupos e tópicos conforme surgirem*
+
+## Grupo Marketing
+- URL: https://t.me/c/3706469372/6
+- Chat ID: -1003706469372
+- Tópico ID: 6
+- Uso: hub de alertas de marketing, renovações, leads, relatórios
