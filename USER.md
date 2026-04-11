@@ -10,134 +10,179 @@
 
 ## Quem é você
 
-Marcelo Moro é empresário, empreendedor digital e criador de conteúdo nas áreas de consórcio, seguros e alavancagem patrimonial. Ele quer construir uma operação séria, escalável e previsível, sem ficar soterrado por tarefas manuais e retrabalho operacional.
+Marcelo Moro é empresário, empreendedor digital e criador de conteúdo nas áreas de consórcio, seguros e alavancagem patrimonial. Ele quer construir uma operação séria, previsível e escalável, sem continuar preso em tarefas manuais que drenam foco, energia e tempo comercial.
 
-Marcelo não quer uma assistente genérica. Quer consistência de identidade, continuidade entre sessões e apoio real de execução. Valoriza clareza, objetividade, inteligência prática e uma postura mais próxima de uma COO do que de um FAQ bot.
+Marcelo não quer um agente genérico. Quer continuidade, inteligência prática, memória útil, proatividade real e ajuda de execução. Prefere clareza, síntese e objetividade. Quando uma resposta virar burocracia, ela perdeu valor.
 
-Hoje, o grande objetivo é transformar a Leevre em uma corretora mais estruturada, com operação organizada, presença forte online, funil previsível e base para crescimento comercial e de conteúdo.
+O foco hoje não é só vender mais. É estruturar a Leevre para crescer com mais previsibilidade em operação, conteúdo, funil, CRM, acompanhamento e gestão.
 
-## Negócios / Trabalho Atual
+## Negócio principal
 
 ### Leevre Corretora de Seguros
 - **Papel:** sócio-fundador
 - **Atuação:** consórcio, seguros e alavancagem patrimonial
-- **Foco principal:** consórcio de imóvel, com atuação também em automóvel
+- **Foco principal:** consórcio de imóvel
+- **Atuação complementar:** automóvel e seguros
 - **Administradoras:** Itaú, Bradesco, Servopa, Porto e outras
-- **Tempo no setor:** cerca de 11 anos
+- **Tempo de mercado:** cerca de 11 anos
 
-### Estrutura atual
+## Estrutura atual
+
 - 3 produtores sem vínculo empregatício formal
 - remuneração por produção
-- a empresa retém 30% da comissão para impostos e ganho empresarial
-- Marcelo não faz microgestão direta, mas a comunicação com eles é quase diária
+- retenção de 30% da comissão pela empresa para impostos e ganho empresarial
+- comunicação quase diária com os produtores
+- Marcelo não quer microgestão, quer previsibilidade e organização
 
-## Dores atuais
+## Dores reais hoje
 
-- Operação toma tempo demais
-- Controle de parcelas e pagamentos pendentes
-- Cálculos e conferências
-- Sinistros
-- Conciliação de comissão e pagamentos
-- Falta de estrutura e previsibilidade operacional
+### Operação
+- comissão
+- conciliação
+- pagamentos pendentes
+- parcelas
+- cálculos
+- sinistros
+- retrabalho
+- falta de sistema claro para acompanhamento
 
-## Objetivo com a assistente
+### Gestão
+- muita coisa depende dele
+- falta de cadência operacional mais forte
+- necessidade de estruturar empresa antes de escalar equipe
 
-- Reduzir tarefas manuais e repetitivas
-- Liberar tempo para conteúdo, vendas e crescimento
-- Organizar o cérebro da Leevre
-- Ajudar na operação, marketing, funil, acompanhamento e estruturação da empresa
+### Comercial e marketing
+- quer mais previsibilidade no funil
+- quer separar melhor seguro e consórcio no raciocínio operacional
+- quer crescer conteúdo com mais intenção comercial
+- quer estruturar melhor CRM, tracking e acompanhamento
+
+## Objetivo com a Livri
+
+- reduzir tarefas manuais e repetitivas
+- liberar tempo para conteúdo, vendas e crescimento
+- organizar o cérebro da Leevre
+- criar mais clareza sobre prioridade, processo, métricas e próximos passos
+- apoiar operação, marketing, vendas e estruturação da empresa
 
 ## Estilo de Comunicação
 
-### Formato Preferido
-- **Informações rápidas:** resumidas, diretas, práticas
-- **Contexto complexo:** detalhar quando necessário ou quando solicitado
-- **Tom:** humano, claro, proativo e sem enrolação
+### Formato preferido
+- **Informações rápidas:** resumo direto
+- **Contexto complexo:** aprofundar quando necessário
+- **Tom:** humano, claro, prático e proativo
 
 ### Quando algo dá errado
-- Explicar brevemente o problema
-- Dizer o que precisa ser feito para corrigir imediatamente
+Marcelo prefere:
+1. problema explicado de forma breve
+2. correção imediata proposta logo em seguida
 
-### Vícios de linguagem
-- Não há um padrão forte de gírias ou bordões a reproduzir
+### O que irrita ou perde valor
+- enrolação
+- burocracia sem aplicação prática
+- progresso fictício
+- resposta que parece bonita mas não anda o trabalho
 
-## Horários e rotina
+## Rotina e contexto de trabalho
 
-- **Horário típico de trabalho:** 09:30 às 17:30
+- **Horário típico:** 09:30 às 17:30
 - **Almoço:** 1 hora
-- **Observação:** Marcelo sente que precisa ampliar a carga de trabalho, mas isso depende de organizar melhor rotina e empresa
-- **Contexto físico:** vinha trabalhando de casa e estava em fase de inaugurar escritório
+- **Observação importante:** ele mesmo reconhece que precisa organizar melhor rotina e empresa para conseguir ampliar capacidade produtiva
+- **Contexto físico:** vinha trabalhando em casa e estava em fase de inaugurar escritório
 
 ## Família e contexto pessoal
 
-- Casado
+- casado
 - 4 filhos
-- Católico
+- católico
 
-Essas informações importam para sensibilidade de agenda, contexto e priorização, não para exposição desnecessária.
+Essas informações importam para contexto, sensibilidade de agenda e entendimento de prioridades.
 
 ## Ferramentas e stack atual
 
 ### Já usa
-- Planilhas
+- planilhas
 - WhatsApp
-- Agger para multicálculo/cotações de seguro
 - Telegram / OpenClaw
+- Agger para multicálculo e cotação de seguros
 
 ### Quer integrar ou estruturar melhor
-- CRM
-- email profissional e automação
+- HubSpot
+- CRM mais disciplinado
 - tracking e analytics
-- HubSpot para operação comercial mais séria
-- rotinas operacionais com planilha + PDF + extração + conciliação
+- email profissional e automação
+- rotinas com PDF + planilha + conciliação + memória operacional
+
+## HubSpot e estrutura comercial
+
+Diagnóstico já consolidado:
+- existe acesso funcionando
+- há 1 pipeline ativo mais voltado para renovação de seguros
+- isso ainda não está pronto para consórcio de forma séria
+
+Direção aprovada:
+- não misturar seguro e consórcio no mesmo raciocínio operacional
+- criar pipeline separado para consórcio
+- definir propriedades mínimas para visibilidade real de funil
+
+Pipeline sugerido para consórcio:
+1. Lead Entrou
+2. Contato Iniciado
+3. Lead Qualificado
+4. Simulação Enviada
+5. Em Negociação
+6. Documentação / Fechamento
+7. Ganho
+8. Perdido
+9. Pausado / Sem timing
+
+Propriedades mínimas importantes:
+- origem do lead
+- canal detalhado
+- tipo de consórcio
+- objetivo do cliente
+- valor pretendido da carta
+- valor de parcela desejada
+- perfil do cliente (PF/PJ)
+- prioridade / temperatura
+- próxima ação
+- data do próximo follow-up
+- motivo de perda
+- responsável
+- observações comerciais estruturadas
 
 ## Marketing, conteúdo e posicionamento
 
-- Tem presença em Instagram e TikTok
-- Usa pouco o LinkedIn
-- Quer ajuda forte em conteúdo, growth e gestão geral das redes
-- Seu conteúdo atual usa cortes de podcast com:
+- presença em Instagram e TikTok
+- LinkedIn pouco usado
+- forte interesse em conteúdo, growth e autoridade
+- estilo atual de conteúdo:
+  - cortes de podcast
   - hook forte
   - dor latente
   - solução de especialista
-  - fechamento com frase de impacto
-- Quer ajuda para definir melhor ICP, persona e dores do público
-- Tem interesse forte em marketing digital, hooks persuasivos, roteiros virais e posicionamento de autoridade
+  - frase final de impacto
+- quer ajuda para definir melhor persona, ICP e dores reais do público
+- interesse forte em hooks, roteiros virais, posicionamento de autoridade e growth com intenção comercial
 
-## Perfil comercial e estratégico
+## Perfil estratégico
 
-- Vê consórcio como ferramenta de construção e alavancagem patrimonial
-- Quer estruturar a corretora para venda online e offline
-- Quer processos claros, metas, rotina e previsibilidade
-- Vendeu cerca de 30 milhões em consórcio no ano anterior
-- Quer chegar a 60 milhões neste ano
-- Ambição maior: tornar a Leevre uma das maiores corretoras de consórcio do Brasil
-
-## HubSpot e cérebro da Leevre
-
-Marcelo já validou uma direção importante:
-- separar seguro e consórcio no raciocínio operacional
-- não misturar tudo num único pipeline
-- estruturar o cérebro da Leevre com áreas, agentes, skills e rotinas
-
-Arquitetura desejada do cérebro:
-- `empresa/`
-- `areas/operacoes/`
-- `areas/vendas/`
-- `areas/marketing/`
-- `areas/atendimento/`
-- `agentes/`
-- `skills/`
-- `rotinas/`
+- vê consórcio como ferramenta de construção e alavancagem patrimonial
+- quer estruturar a corretora para venda online e offline
+- quer processos claros, metas e previsibilidade
+- vendeu cerca de 30 milhões em consórcio no ano anterior
+- quer chegar a 60 milhões neste ano
+- ambição maior: tornar a Leevre uma das maiores corretoras de consórcio do Brasil
 
 ## Como ajudar melhor o Marcelo
 
-1. Ser proativa de verdade
-2. Não prometer execução sem executar
-3. Organizar caos antes de falar de automação sofisticada
-4. Priorizar gargalo operacional real
-5. Manter memória e continuidade entre sessões
-6. Falar como alguém que entende negócio, execução e crescimento
+1. ser proativa de verdade
+2. executar antes de ficar só sugerindo
+3. atacar primeiro o gargalo operacional real
+4. organizar antes de automatizar
+5. separar claramente o que é fato, risco, pendência e próximo passo
+6. manter memória viva e útil
+7. funcionar como parceira de execução, não como robô decorativo
 
 ---
 
