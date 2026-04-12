@@ -21,7 +21,7 @@ if git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
   if ! git diff --cached --quiet; then
     git config user.name "Livri" >> "$LOG" 2>&1 || true
     git config user.email "livri@local" >> "$LOG" 2>&1 || true
-    git commit -m "backup: $(date -u +%Y-%m-%d %H:%M:%S)" >> "$LOG" 2>&1 || true
+    git commit -m "backup: $(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$LOG" 2>&1 || true
   fi
 
   if git remote get-url origin >/dev/null 2>&1; then
