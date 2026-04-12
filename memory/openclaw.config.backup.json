@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.3.13",
+    "lastTouchedAt": "2026-04-03T15:48:19.818Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-04-03T15:47:54.072Z",
+    "lastRunVersion": "2026.3.13",
+    "lastRunCommand": "onboard",
+    "lastRunMode": "local"
+  },
+  "auth": {
+    "profiles": {
+      "anthropic:default": {
+        "provider": "anthropic",
+        "mode": "token"
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "openai/gpt-5.4",
+        "fallbacks": [
+          "google/gemini-2.5-flash",
+          "anthropic/claude-sonnet-4-6"
+        ]
+      },
+      "models": {
+        "anthropic/claude-sonnet-4-6": {},
+        "anthropic/claude-sonnet-4": {},
+        "google/gemini-2.5-flash": {},
+        "openai/gpt-5.4-mini": {},
+        "openai/gpt-5.4": {}
+      },
+      "workspace": "/root/.openclaw/workspace",
+      "contextTokens": 160000,
+      "compaction": {
+        "mode": "default",
+        "reserveTokensFloor": 30000
+      },
+      "maxConcurrent": 4,
+      "subagents": {
+        "maxConcurrent": 8,
+        "model": "anthropic/claude-haiku-3-5"
+      }
+    }
+  },
+  "tools": {
+    "profile": "coding",
+    "web": {
+      "search": {
+        "enabled": true,
+        "provider": "gemini",
+        "gemini": {
+          "apiKey": "AIzaSyB9vi8OZHXRMAcd0WQt1kC1Igov7zNlqLs"
+        }
+      }
+    },
+    "exec": {
+      "security": "full"
+    }
+  },
+  "messages": {
+    "ackReactionScope": "group-mentions"
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "session": {
+    "dmScope": "per-channel-peer"
+  },
+  "hooks": {
+    "internal": {
+      "enabled": true,
+      "entries": {
+        "boot-md": {
+          "enabled": true
+        },
+        "bootstrap-extra-files": {
+          "enabled": true
+        },
+        "command-logger": {
+          "enabled": true
+        },
+        "session-memory": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "dmPolicy": "allowlist",
+      "botToken": "8615580457:AAGg78c6F8dDU0owkE8s3XIuKPS3K1REnZY",
+      "groups": {
+        "*": {
+          "requireMention": false
+        }
+      },
+      "allowFrom": [
+        "1062007390"
+      ],
+      "groupPolicy": "open",
+      "streaming": "partial"
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "710f317bd5b7d0273bfe3099fc3d207982f8f3b3517e12d9"
+    },
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    }
+  },
+  "skills": {
+    "entries": {
+      "goplaces": {
+        "apiKey": "AIzaSyB9vi8OZHXRMAcd0WQt1kC1Igov7zNlqLs"
+      },
+      "nano-banana-pro": {
+        "apiKey": "AIzaSyB9vi8OZHXRMAcd0WQt1kC1Igov7zNlqLs"
+      }
+    }
+  },
+  "plugins": {
+    "entries": {
+      "telegram": {
+        "enabled": true
+      },
+      "device-pair": {
+        "config": {
+          "publicUrl": "ws://127.0.0.1:18789"
+        }
+      }
+    }
+  }
+}

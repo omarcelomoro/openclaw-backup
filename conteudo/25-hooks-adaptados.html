@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>25-hooks-adaptados</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h1 id="hooks-adaptados-marcelo-moro">25 Hooks Adaptados — Marcelo
+Moro</h1>
+<p><strong>Leevre Corretora de Seguros | <span class="citation"
+data-cites="omarcelomoro">@omarcelomoro</span></strong> <em>Criado por
+Livri — Março 2026</em></p>
+<hr />
+<h2 id="curiosidade-e-mistério">🔥 Curiosidade e Mistério</h2>
+<p><strong>1.</strong> Original: <em>“O segredo que ninguém comenta
+sobre [tema]”</em> ✅ <strong>“O segredo que nenhum banco quer que você
+saiba sobre comprar imóvel”</strong></p>
+<hr />
+<p><strong>2.</strong> Original: <em>“Eis o que eles não querem que você
+saiba…”</em> ✅ <strong>“O que as financeiras escondem quando você
+assina um financiamento”</strong></p>
+<hr />
+<p><strong>3.</strong> Original: <em>“Por que ninguém fala sobre
+isso?”</em> ✅ <strong>“Por que ninguém fala que você pode usar o FGTS
+pra dar lance no consórcio?”</strong></p>
+<hr />
+<p><strong>4.</strong> Original: <em>“Quem me dera alguém tivesse me
+dito isso antes…”</em> ✅ <strong>“Quem me dera alguém tivesse me
+explicado consórcio antes de eu assinar um financiamento”</strong></p>
+<hr />
+<p><strong>5.</strong> Original: <em>“Pare de rolar a tela se quiser
+[resultado desejado]”</em> ✅ <strong>“Para de rolar se você ainda paga
+aluguel e quer sair dessa situação”</strong></p>
+<hr />
+<h2 id="afirmação-ousada">💥 Afirmação Ousada</h2>
+<p><strong>6.</strong> Original: <em>“Todos estão errados sobre
+[tema]”</em> ✅ <strong>“Todo mundo está errado sobre consórcio — e isso
+está custando caro”</strong></p>
+<hr />
+<p><strong>7.</strong> Original: <em>“Você foi enganado sobre
+[tema]”</em> ✅ <strong>“Você foi enganado quando acharam que
+financiamento era a única opção”</strong></p>
+<hr />
+<p><strong>8.</strong> Original: <em>“É por isso que você não está
+crescendo…”</em> ✅ <strong>“É por isso que você paga aluguel há anos e
+ainda não tem nada no seu nome”</strong></p>
+<hr />
+<p><strong>9.</strong> Original: <em>“A verdade sobre [tema] que ninguém
+tem coragem de dizer”</em> ✅ <strong>“A verdade sobre financiamento que
+nenhum gerente de banco tem coragem de te contar”</strong></p>
+<hr />
+<p><strong>10.</strong> Original: <em>“Fiquei chocado quando descobri
+isso…”</em> ✅ <strong>“Fiquei chocado quando calculei quanto uma
+família perde em juros num financiamento de 30 anos”</strong></p>
+<hr />
+<h2 id="história-e-identificação">📖 História e Identificação</h2>
+<p><strong>11.</strong> Original: <em>“Eu quase desisti até que…”</em>
+✅ <strong>“Esse cliente quase cancelou o consórcio. 6 meses depois ele
+tinha a chave do imóvel”</strong></p>
+<hr />
+<p><strong>12.</strong> Original: <em>“Meu maior erro foi…”</em> ✅
+<strong>“O maior erro que vejo as pessoas cometendo na hora de comprar
+imóvel”</strong></p>
+<hr />
+<p><strong>13.</strong> Original: <em>“O dia em que tudo mudou na minha
+vida”</em> ✅ <strong>“O dia em que entendi que aluguel é a prestação da
+casa do outro”</strong></p>
+<hr />
+<p><strong>14.</strong> Original: <em>“Da falência ao [resultado]”</em>
+✅ <strong>“Do aluguel ao segundo imóvel — a história de uma família
+comum que fez diferente”</strong></p>
+<hr />
+<p><strong>15.</strong> Original: <em>“Eu experimentei isso por 30 dias
+e olha o que aconteceu”</em> ✅ <strong>“Acompanhei esse grupo de
+consórcio por 12 meses e olha o que aconteceu com os que deram
+lance”</strong></p>
+<hr />
+<h2 id="números-e-listas">📊 Números e Listas</h2>
+<p><strong>16.</strong> Original: <em>“3 erros que você está cometendo
+agora mesmo”</em> ✅ <strong>“3 erros que as pessoas cometem na hora de
+escolher entre consórcio e financiamento”</strong></p>
+<hr />
+<p><strong>17.</strong> Original: <em>“Apenas 1% das pessoas sabem
+disso”</em> ✅ <strong>“Menos de 1% das pessoas sabe que dá pra comprar
+imóvel sem dar entrada e sem pagar juros”</strong></p>
+<hr />
+<p><strong>18.</strong> Original: <em>“5 coisas que eu gostaria de saber
+antes de começar”</em> ✅ <strong>“5 coisas que eu gostaria que todo
+cliente soubesse antes de assinar qualquer contrato”</strong></p>
+<hr />
+<p><strong>19.</strong> Original: <em>“Truque de 5 minutos que mudou
+minha rotina”</em> ✅ <strong>“Em 5 minutos eu te mostro quanto você vai
+economizar trocando financiamento por consórcio”</strong></p>
+<hr />
+<p><strong>20.</strong> Original: <em>“Aqui estão 8 dicas que ninguém
+compartilha”</em> ✅ <strong>“8 perguntas que você precisa fazer antes
+de entrar em qualquer grupo de consórcio”</strong></p>
+<hr />
+<h2 id="transformação-e-resultado">🚀 Transformação e Resultado</h2>
+<p><strong>21.</strong> Original: <em>“Do zero ao [resultado] — veja
+como”</em> ✅ <strong>“Do aluguel ao imóvel próprio — como uma família
+fez isso em menos de 2 anos”</strong></p>
+<hr />
+<p><strong>22.</strong> Original: <em>“Como resolvi [problema] em 3
+dias”</em> ✅ <strong>“Como esse cliente saiu do aluguel em 8 meses
+usando lance embutido”</strong></p>
+<hr />
+<p><strong>23.</strong> Original: <em>“Dobre sua [métrica] com
+isso”</em> ✅ <strong>“Como usar o consórcio pra dobrar seu patrimônio
+imobiliário sem tirar dinheiro do bolso”</strong></p>
+<hr />
+<p><strong>24.</strong> Original: <em>“POV: você acabou de descobrir que
+podia ter feito isso antes”</em> ✅ <strong>“POV: você descobre que
+podia ter saído do aluguel há 3 anos com a mesma parcela que paga
+hoje”</strong></p>
+<hr />
+<p><strong>25.</strong> Original: <em>“Isso me salvou de [consequência
+negativa]”</em> ✅ <strong>“O consórcio me salvou de pagar R$280.000 a
+mais num financiamento de 30 anos”</strong></p>
+<hr />
+<h2 id="como-usar">Como usar</h2>
+<ul>
+<li>Cada hook é uma <strong>abertura de vídeo</strong> — os primeiros 3
+segundos</li>
+<li>Teste 2 ou 3 por semana e veja qual retém mais</li>
+<li>Combine com texto na tela reforçando o hook falado</li>
+<li>Adapte o tom: mais formal pra LinkedIn, mais direto pra
+TikTok/Reels</li>
+</ul>
+<hr />
+<p><em>Criado por Livri — Assistente Estratégica da Leevre
+Corretora</em></p>
+</body>
+</html>

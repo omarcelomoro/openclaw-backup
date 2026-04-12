@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "skills": {
+    "gog": {
+      "version": "1.0.0",
+      "installedAt": 1774551379334
+    },
+    "openai-whisper-api": {
+      "version": "1.0.0",
+      "installedAt": 1774561408173
+    }
+  }
+}
