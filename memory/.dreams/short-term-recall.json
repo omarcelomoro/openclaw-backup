@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-10T23:41:50.629Z",
+  "updatedAt": "2026-04-13T01:23:06.185Z",
   "entries": {
     "memory:memory/2026-04-09.md:1:17": {
       "key": "memory:memory/2026-04-09.md:1:17",
@@ -42,18 +42,20 @@
       "endLine": 58,
       "source": "memory",
       "snippet": "- Meta: estruturar a corretora para venda online e offline com processos claros; saiu de 30 milhões vendidos em consórcio no ano anterior e quer chegar a 60 milhões no ano atual. - Ambição maior: ser uma das maiores corretoras de consórcio do Brasil. - Surgiu também histórico de localização em Vila Velha/ES, presença mais forte em Instagram e TikTok, e interesse recorrente em growth, roteiros virais, marketing financeiro e investimento conservador. - Foi feita uma triagem de skills do repositório `openclaw-master-skills` para a operação da Leevre. As 7 priorizadas foram: `telegram`, `pdf`, `pdf-extract`, `excel-xlsx`, `email-sequence`, `campaign-analytics` e `analytics-tracking`. - Essas ski",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.33360216577290003,
-      "maxScore": 0.33360216577290003,
+      "totalScore": 1.0931469563034897,
+      "maxScore": 0.7595447905305898,
       "firstRecalledAt": "2026-04-09T23:35:55.147Z",
-      "lastRecalledAt": "2026-04-09T23:35:55.147Z",
+      "lastRecalledAt": "2026-04-12T21:36:48.407Z",
       "queryHashes": [
-        "27cfe1c03cf1"
+        "27cfe1c03cf1",
+        "cee577634b27"
       ],
       "recallDays": [
-        "2026-04-09"
+        "2026-04-09",
+        "2026-04-12"
       ],
       "conceptTags": [
         "velha/es",
@@ -95,6 +97,424 @@
         "reforçou",
         "atributos",
         "desejados"
+      ]
+    },
+    "memory:memory/2026-04-03.md:1:48": {
+      "key": "memory:memory/2026-04-03.md:1:48",
+      "path": "memory/2026-04-03.md",
+      "startLine": 1,
+      "endLine": 48,
+      "source": "memory",
+      "snippet": "# Memória — 03/04/2026 ## n8n — Instalado e Rodando ✅ - Instalado via Docker no VPS 187.77.247.207 - Porta: 5678 (apenas localhost — não exposto externamente) - Auth: admin / Livrisualinda - Volume: n8n_data - Status: `{\"status\":\"ok\"}` confirmado - Restart policy: unless-stopped - Timezone: America/Sao_Paulo **Para acessar:** SSH tunnel ou via Traefik (ainda não configurado proxy externo) --- ## Brevo — Conta criada - Email: marcelo@leevrecorretora.com.br - API Key salva em /root/.openclaw/.env como `BREVO_API_KEY` - Plano free: até 300 emails/dia - **Próximo passo:** configurar sender domain + workflows no n8n --- ## Gemini — Configurado como fallback - API Key: salva em .env como",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.7082964572108054,
+      "maxScore": 0.7082964572108054,
+      "firstRecalledAt": "2026-04-12T16:58:14.351Z",
+      "lastRecalledAt": "2026-04-12T16:58:14.351Z",
+      "queryHashes": [
+        "0f04ea18f1ce"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "03/04/2026",
+        "187.77.247.207",
+        "n8n-data",
+        "unless-stopped",
+        "america/sao-paulo",
+        "leevrecorretora.com.br",
+        "brevo-api-key",
+        "emails/dia"
+      ]
+    },
+    "memory:memory/2026-04-03.md:141:156": {
+      "key": "memory:memory/2026-04-03.md:141:156",
+      "path": "memory/2026-04-03.md",
+      "startLine": 141,
+      "endLine": 156,
+      "source": "memory",
+      "snippet": "### Estado de Saúde do Servidor - n8n: ✅ Up 44h+, porta 5678 (localhost) - Evolution API: ✅ Up 44h+, porta 8080 - Traefik: ✅ Up 44h+, modo host (80/443) - OpenClaw Gateway: ✅ porta 18789 - SSH: ✅ portas 22 e 2222 - Disco: 12G usados / 96G total (13%) ### n8n — Configuração de Usuário - Owner: marcelo@leevrecorretora.com.br - DB: SQLite em /var/lib/docker/volumes/n8n_data/_data/database.sqlite - Projeto pessoal criado manualmente (ID: 7547749a-20dc-47c8-9e8a-01e5662691cd)",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.6338940508113537,
+      "maxScore": 0.8169470254056769,
+      "firstRecalledAt": "2026-04-12T17:06:07.168Z",
+      "lastRecalledAt": "2026-04-12T17:09:38.718Z",
+      "queryHashes": [
+        "f5ef3e8857e5",
+        "d5837bcd7b72"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "gateway",
+        "80/443",
+        "leevrecorretora.com.br",
+        "var/lib/docker/volumes/n8n-data",
+        "data/database.sqlite",
+        "estado",
+        "saúde",
+        "servidor"
+      ]
+    },
+    "memory:memory/2026-03-28.md:1:30": {
+      "key": "memory:memory/2026-03-28.md:1:30",
+      "path": "memory/2026-03-28.md",
+      "startLine": 1,
+      "endLine": 30,
+      "source": "memory",
+      "snippet": "# Notas do dia — 28/03/2026 ## Google OAuth via gogcli — configurado - `marcelo@leevrecorretora.com.br` ✅ conectado - Permissões: Gmail, Calendar, Drive, Sheets, Docs, Contacts, Tasks, Chat e mais - Tokens em `/root/.config/gogcli/` - Gmail funcionando: `gogcli gmail search \"is:unread\" -a marcelo@leevrecorretora.com.br` - `atendimento@leevrecorretora.com.br` ✅ conectado - Mesmas permissões - Este é o email oficial da Livri (substituiu `atendimentolivri@gmail.com`) - People API precisa ser ativada para `gogcli whoami` funcionar: https://console.developers.google.com/apis/api/people.googleapis.com/overview?project=459550254172 - Emails não lidos de Marcelo vistos: Allianz vistori",
+      "recallCount": 5,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 4.137674392328266,
+      "maxScore": 0.8275348784656533,
+      "firstRecalledAt": "2026-04-12T17:08:22.036Z",
+      "lastRecalledAt": "2026-04-12T17:22:05.016Z",
+      "queryHashes": [
+        "6100228b3211",
+        "d5837bcd7b72",
+        "2d326059b1a3",
+        "874f15e85596",
+        "15edec7ffc8c"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "28/03/2026",
+        "leevrecorretora.com.br",
+        "config/gogcli",
+        "gmail.com",
+        "notas",
+        "dia",
+        "google",
+        "oauth"
+      ]
+    },
+    "memory:memory/2026-03-27.md:20:54": {
+      "key": "memory:memory/2026-03-27.md:20:54",
+      "path": "memory/2026-03-27.md",
+      "startLine": 20,
+      "endLine": 54,
+      "source": "memory",
+      "snippet": "- PROJECTS.md: criado com projetos ativos, concluídos e backlog - memory/: estrutura de topic files criada ## Configurações de sistema - Fallback de modelo: `claude-sonnet-4` adicionado - Sub-agentes configurados para `claude-haiku-3-5` - `agents.defaults.compaction.mode = default` - `agents.defaults.contextTokens = 160000` - `agents.defaults.compaction.reserveTokensFloor = 30000` - `gogcli v0.12.0` instalado no VPS (via tar.gz Linux) - Compaction mode anterior era `safeguard`, agora `default` ## Google OAuth conectado via gogcli - `marcelo@leevrecorretora.com.br` ✅ — Gmail, Calendar, Drive, Sheets, Docs, Contacts, Tasks - `atendimento@leevrecorretora.com.br` ✅ — mesmas permissões - Toke",
+      "recallCount": 5,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 4.131710166373145,
+      "maxScore": 0.8263420332746289,
+      "firstRecalledAt": "2026-04-12T17:08:22.036Z",
+      "lastRecalledAt": "2026-04-12T17:22:05.016Z",
+      "queryHashes": [
+        "6100228b3211",
+        "d5837bcd7b72",
+        "2d326059b1a3",
+        "874f15e85596",
+        "15edec7ffc8c"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "projects.md",
+        "claude-sonnet-4",
+        "sub-agentes",
+        "claude-haiku-3-5",
+        "agents.defaults.compaction.mode",
+        "agents.defaults.contexttokens",
+        "v0.12.0",
+        "tar.gz"
+      ]
+    },
+    "memory:memory/2026-03-27.md:46:73": {
+      "key": "memory:memory/2026-03-27.md:46:73",
+      "path": "memory/2026-03-27.md",
+      "startLine": 46,
+      "endLine": 73,
+      "source": "memory",
+      "snippet": "- Retomar: gerar novo QR com `gogcli instance/connect/leevre` + API key `livri-evolution-key-2026` - Manager acessível em `http://localhost:8080/manager` - Redis desativado (bug v2.2.3), PostgreSQL ativo - Credenciais salvas no `.env` ## Funil digital — contexto capturado - 99% das vendas atuais do Marcelo são offline (rede de relacionamento) - Usa WhatsApp Business (não o comum) - Quer: gestão de redes sociais, tráfego pago, email marketing, marketing de indicação - Projeto `memory/projects/funil-digital.md` criado com plano completo ## Pendências abertas - [ ] WhatsApp: escanear QR code da Evolution API (retomar quando Marcelo tiver tempo) - [ ] People API: ativar no Google Console par",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2.4398131768145443,
+      "maxScore": 0.8132710589381814,
+      "firstRecalledAt": "2026-04-12T17:09:38.718Z",
+      "lastRecalledAt": "2026-04-12T17:22:05.016Z",
+      "queryHashes": [
+        "d5837bcd7b72",
+        "2d326059b1a3",
+        "15edec7ffc8c"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "instance/connect/leevre",
+        "livri-evolution-key-2026",
+        "8080/manager",
+        "v2.2.3",
+        "memory/projects/funil-digital.md",
+        "retomar",
+        "gerar",
+        "novo"
+      ]
+    },
+    "memory:memory/2026-04-03.md:112:152": {
+      "key": "memory:memory/2026-04-03.md:112:152",
+      "path": "memory/2026-04-03.md",
+      "startLine": 112,
+      "endLine": 152,
+      "source": "memory",
+      "snippet": "| Workflow | ID | Status | |---------|-----|--------| | Renovação Seguros — Alerta 7 dias | 0bJQd3LEVFvYNaCx | ⏸ inativo | | Renovações Vencendo HOJE | Dyb79cBq6tPnOR2p | ⏸ inativo | | Renovação Seguros — Alerta 30 dias | d30df50f-f67b-4fc8-946e-5e68a0129ef9 | ⏸ inativo | | SDR — Qualificação Lead WhatsApp | h356X4zdYqKLvRjF | ⏸ inativo | **⚠️ INATIVO porque:** precisam das credenciais do Telegram configuradas na UI do n8n para funcionar. n8n API Key: `n8n_api_livri2026test` (salva em .env) n8n Login: marcelo@leevrecorretora.com.br / Livrisualinda2026! **Para ativar os workflows:** 1. Acessar n8n via SSH tunnel: `ssh -L 5678:localhost:5678 root@187.77.247.207` 2. Abrir http://localhost:5",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.7495964517727752,
+      "maxScore": 0.7495964517727752,
+      "firstRecalledAt": "2026-04-12T17:09:38.718Z",
+      "lastRecalledAt": "2026-04-12T17:09:38.718Z",
+      "queryHashes": [
+        "d5837bcd7b72"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "n8n-api-livri2026test",
+        "leevrecorretora.com.br",
+        "187.77.247.207",
+        "workflow",
+        "status",
+        "renovação",
+        "seguros",
+        "alerta"
+      ]
+    },
+    "memory:memory/2026-04-12.md:1:30": {
+      "key": "memory:memory/2026-04-12.md:1:30",
+      "path": "memory/2026-04-12.md",
+      "startLine": 1,
+      "endLine": 30,
+      "source": "memory",
+      "snippet": "# 2026-04-12 ## Memórias duráveis - O nome final da assistente foi confirmado por Marcelo como **Livri**. `Smart` deve ser tratado apenas como nome histórico. - O cérebro da Leevre foi estruturado e sincronizado com o repositório GitHub `omarcelomoro/openclaw-backup` via SSH. - O GitHub do servidor foi autenticado por chave SSH (`~/.ssh/id_ed25519`) e o workspace foi ligado ao remote `git@github.com:omarcelomoro/openclaw-backup.git`. - Houve merge entre o histórico local e o remoto. Foram preservadas as versões locais mais recentes de arquivos centrais do cérebro (`SOUL.md`, `USER.md`, `IDENTITY.md`, `AGENTS.md`, `MEMORY.md`). - O backup diário local foi implementado em `/home/marcelo/.ope",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.5496597467876867,
+      "maxScore": 0.7748298733938433,
+      "firstRecalledAt": "2026-04-12T17:13:32.735Z",
+      "lastRecalledAt": "2026-04-12T17:17:49.254Z",
+      "queryHashes": [
+        "03671faf9d81",
+        "df327ab8ebf2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "backup",
+        "omarcelomoro/openclaw-backup",
+        "ssh/id-ed25519",
+        "github.com",
+        "omarcelomoro/openclaw-backup.git",
+        "soul.md",
+        "user.md",
+        "identity.md"
+      ]
+    },
+    "memory:memory/2026-04-12.md:20:44": {
+      "key": "memory:memory/2026-04-12.md:20:44",
+      "path": "memory/2026-04-12.md",
+      "startLine": 20,
+      "endLine": 44,
+      "source": "memory",
+      "snippet": "- `skills/` - memória estruturada em `memory/` - Foram criados e enviados ao GitHub materiais duráveis da Leevre, incluindo: - mapa do cérebro - visão e metas - métricas principais - pessoas-chave - decisões estratégicas - pipeline de consórcio - propriedades recomendadas do HubSpot - plano de 90 dias - rotinas operacionais e comerciais - pilares de conteúdo e tracking mínimo - FAQ inicial, triagem e handoff - mapa e identidade funcional dos agentes - primeiras skills autorais da Leevre - As primeiras skills autorais criadas para a Leevre foram: - `auditoria-hubspot-leevre` - `gestao-renovacoes-seguro` - `followup-consorcio` - `analise-concorrentes-conte",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.4491163694406608,
+      "maxScore": 0.7603629361330172,
+      "firstRecalledAt": "2026-04-12T17:32:21.504Z",
+      "lastRecalledAt": "2026-04-12T21:36:48.407Z",
+      "queryHashes": [
+        "305b54b0adad",
+        "cee577634b27"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "pessoas-chave",
+        "auditoria-hubspot-leevre",
+        "gestao-renovacoes-seguro",
+        "followup-consorcio",
+        "analise-concorrentes-conte",
+        "skills",
+        "memória",
+        "estruturada"
+      ]
+    },
+    "memory:memory/2026-04-06.md:13:18": {
+      "key": "memory:memory/2026-04-06.md:13:18",
+      "path": "memory/2026-04-06.md",
+      "startLine": 13,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "- Auditoria de acesso do HubSpot foi retomada com leitura inicial positiva: token/acesso funcionando e pipeline de negócios acessível; foi identificado um pipeline com estágios como Lead Recebido, Primeiro Contato, Simulação Enviada, Proposta Aceita, Contrato Assinado, Ganho e Perdido. Próximo passo acordado: aprofundar auditoria sem alterar nada e depois recomendar a adaptação ideal para consórcio. - Tarefa deixada explicitamente como pendente por Marcelo em 06/04: concluir depois o \"cérebro\" da Leevre com auditoria/recomendação final do HubSpot, estrutura do cérebro adaptada da Imersão, pipeline de consórcio, propriedades recomendadas no CRM e plano de 90 dias. Não implementar mudanças em",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.7419949086422157,
+      "maxScore": 0.7419949086422157,
+      "firstRecalledAt": "2026-04-12T21:36:48.407Z",
+      "lastRecalledAt": "2026-04-12T21:36:48.407Z",
+      "queryHashes": [
+        "cee577634b27"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "token/acesso",
+        "06/04",
+        "auditoria/recomendação",
+        "auditoria",
+        "acesso",
+        "hubspot",
+        "foi",
+        "retomada"
+      ]
+    },
+    "memory:memory/2026-04-12.md:87:92": {
+      "key": "memory:memory/2026-04-12.md:87:92",
+      "path": "memory/2026-04-12.md",
+      "startLine": 87,
+      "endLine": 92,
+      "source": "memory",
+      "snippet": "- O OAuth do `gog` para `atendimento@leevrecorretora.com.br` foi concluído com sucesso usando fluxo remoto/manual (`--remote --step 1/2`) após upload do `credentials.json` via `scp` do Windows para `/home/marcelo/.config/gogcli/credentials.json`. - Foi necessário resetar o keyring antigo do `gog` (`~/.config/gogcli/keyring`) porque a senha anterior não estava disponível; Marcelo criou uma nova senha localmente via `GOG_KEYRING_PASSWORD`. - As APIs Google Drive, Docs e Sheets foram ativadas no projeto `905139521903` para fazer o `gog` funcionar. - O primeiro ID de pasta testado no Drive (`1joXq6DLEIuNdTyhvziaAsCQT9QINoLnD`) retornou vazio/404 e deve ser tratado como ID incorreto ou não compar",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.6087605625018877,
+      "maxScore": 0.8102407713064842,
+      "firstRecalledAt": "2026-04-12T21:37:05.882Z",
+      "lastRecalledAt": "2026-04-13T00:11:56.763Z",
+      "queryHashes": [
+        "f73f85184269",
+        "05b79f927c69"
+      ],
+      "recallDays": [
+        "2026-04-12",
+        "2026-04-13"
+      ],
+      "conceptTags": [
+        "leevrecorretora.com.br",
+        "remoto/manual",
+        "1/2",
+        "credentials.json",
+        "home/marcelo",
+        "config/gogcli/credentials.json",
+        "config/gogcli/keyring",
+        "gog-keyring-password"
+      ]
+    },
+    "memory:memory/2026-04-12.md:64:88": {
+      "key": "memory:memory/2026-04-12.md:64:88",
+      "path": "memory/2026-04-12.md",
+      "startLine": 64,
+      "endLine": 88,
+      "source": "memory",
+      "snippet": "- memória estruturada em `memory/` - Foram criados e enviados ao GitHub materiais duráveis da Leevre, incluindo: - mapa do cérebro - visão e metas - métricas principais - pessoas-chave - decisões estratégicas - pipeline de consórcio - propriedades recomendadas do HubSpot - plano de 90 dias - rotinas operacionais e comerciais - pilares de conteúdo e tracking mínimo - FAQ inicial, triagem e handoff - mapa e identidade funcional dos agentes - primeiras skills autorais da Leevre - As primeiras skills autorais criadas para a Leevre foram: - `auditoria-hubspot-leevre` - `gestao-renovacoes-seguro` - `followup-consorcio` - `analise-concorrentes-conteudo` - `cons",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.7840656373044886,
+      "maxScore": 0.7840656373044886,
+      "firstRecalledAt": "2026-04-13T00:11:56.763Z",
+      "lastRecalledAt": "2026-04-13T00:11:56.763Z",
+      "queryHashes": [
+        "05b79f927c69"
+      ],
+      "recallDays": [
+        "2026-04-13"
+      ],
+      "conceptTags": [
+        "pessoas-chave",
+        "auditoria-hubspot-leevre",
+        "gestao-renovacoes-seguro",
+        "followup-consorcio",
+        "analise-concorrentes-conteudo",
+        "memória",
+        "estruturada",
+        "foram"
+      ]
+    },
+    "memory:memory/2026-04-13.md:1:12": {
+      "key": "memory:memory/2026-04-13.md:1:12",
+      "path": "memory/2026-04-13.md",
+      "startLine": 1,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "# 2026-04-13 ## Memórias duráveis - O acesso do `gog` ao Google Drive da conta `atendimento@leevrecorretora.com.br` foi concluído e validado com sucesso usando `GOG_KEYRING_PASSWORD` salvo em `/home/marcelo/.openclaw/.env`. - O link válido da pasta compartilhada da imersão passou a ser `1quUQlgQrfvyk4hENDVTUoHwEVOw_Nm0M` (`imersao-openclaw-negocios-main`). - Foram baixados 186 arquivos relevantes do Drive para `imports/drive-imersao-openclaw/` como biblioteca de referência, sem transformá-los em fonte de verdade da Leevre. - A partir desse material, foram adaptados para a estrutura da Leevre os blocos de processo de tráfego pago, biblioteca de ângulos, follow-up de leads esfriando, governa",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.8391543140482443,
+      "maxScore": 0.8391543140482443,
+      "firstRecalledAt": "2026-04-13T01:23:06.185Z",
+      "lastRecalledAt": "2026-04-13T01:23:06.185Z",
+      "queryHashes": [
+        "c5330a4a630f"
+      ],
+      "recallDays": [
+        "2026-04-13"
+      ],
+      "conceptTags": [
+        "leevrecorretora.com.br",
+        "gog-keyring-password",
+        "home/marcelo",
+        "imersao-openclaw-negocios-main",
+        "imports/drive-imersao-openclaw",
+        "transformá-los",
+        "follow-up",
+        "memórias"
+      ]
+    },
+    "memory:memory/2026-03-28.md:23:67": {
+      "key": "memory:memory/2026-03-28.md:23:67",
+      "path": "memory/2026-03-28.md",
+      "startLine": 23,
+      "endLine": 67,
+      "source": "memory",
+      "snippet": "- Vieses a evitar: confirmation, recency, survivorship, authority ## Pendências abertas (carry-forward) - [ ] People API Google: ativar para gogcli whoami - [ ] WhatsApp: reescanear QR code da Evolution API quando Marcelo estiver disponível - [ ] Heartbeat com monitoramento de email — Marcelo perguntou, não confirmou ainda - [ ] CRM: plataforma não definida - [ ] Email marketing: plataforma não definida (Resend vs ActiveCampaign) ## Bloco financeiro — Marcelo (29/03/2026) ### Comissões consórcio - Servopa: 2% na venda + 2,7% na contemplação (sobre o crédito) - Itaú: 3,5% a 4% (sobre o crédito) - Bradesco: 4% (sobre o crédito) ### Comissões seguros - Automóvel, empresarial, responsabilid",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.800288409203808,
+      "maxScore": 0.800288409203808,
+      "firstRecalledAt": "2026-04-13T01:23:06.185Z",
+      "lastRecalledAt": "2026-04-13T01:23:06.185Z",
+      "queryHashes": [
+        "c5330a4a630f"
+      ],
+      "recallDays": [
+        "2026-04-13"
+      ],
+      "conceptTags": [
+        "carry-forward",
+        "29/03/2026",
+        "vieses",
+        "evitar",
+        "confirmation",
+        "recency",
+        "survivorship",
+        "authority"
       ]
     }
   }
