@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-13T01:23:06.185Z",
+  "updatedAt": "2026-04-13T21:35:56.297Z",
   "entries": {
     "memory:memory/2026-04-09.md:1:17": {
       "key": "memory:memory/2026-04-09.md:1:17",
@@ -42,20 +42,22 @@
       "endLine": 58,
       "source": "memory",
       "snippet": "- Meta: estruturar a corretora para venda online e offline com processos claros; saiu de 30 milhões vendidos em consórcio no ano anterior e quer chegar a 60 milhões no ano atual. - Ambição maior: ser uma das maiores corretoras de consórcio do Brasil. - Surgiu também histórico de localização em Vila Velha/ES, presença mais forte em Instagram e TikTok, e interesse recorrente em growth, roteiros virais, marketing financeiro e investimento conservador. - Foi feita uma triagem de skills do repositório `openclaw-master-skills` para a operação da Leevre. As 7 priorizadas foram: `telegram`, `pdf`, `pdf-extract`, `excel-xlsx`, `email-sequence`, `campaign-analytics` e `analytics-tracking`. - Essas ski",
-      "recallCount": 2,
+      "recallCount": 3,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1.0931469563034897,
+      "totalScore": 1.8294982305049858,
       "maxScore": 0.7595447905305898,
       "firstRecalledAt": "2026-04-09T23:35:55.147Z",
-      "lastRecalledAt": "2026-04-12T21:36:48.407Z",
+      "lastRecalledAt": "2026-04-13T10:02:58.797Z",
       "queryHashes": [
         "27cfe1c03cf1",
-        "cee577634b27"
+        "cee577634b27",
+        "46db410c0e32"
       ],
       "recallDays": [
         "2026-04-09",
-        "2026-04-12"
+        "2026-04-12",
+        "2026-04-13"
       ],
       "conceptTags": [
         "velha/es",
@@ -75,18 +77,20 @@
       "endLine": 35,
       "source": "memory",
       "snippet": "- Em registros posteriores, Marcelo reforçou atributos desejados da identidade da Livri, incluindo perfil empreendedor, foco em execução, crescimento, experiência do cliente e operações. - Também apareceu uma intenção histórica de estruturar modelos por função: Opus para análise profunda, Sonnet para uso geral e Haiku para checagens simples/heartbeats. - A assistente também passou a apoiar Marcelo em temas de negócio, especialmente consórcio, alavancagem patrimonial, operação comercial, conteúdo e estruturação de equipe online. ### Leitura consolidada A conclusão provisória foi que o \"cérebro\" técnico-operacional já havia sido montado no passado, mas a memória persistente e a continuidade",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.4877035778032763,
-      "maxScore": 0.4877035778032763,
+      "totalScore": 1.1569438675273906,
+      "maxScore": 0.6692402897241144,
       "firstRecalledAt": "2026-04-10T23:41:50.629Z",
-      "lastRecalledAt": "2026-04-10T23:41:50.629Z",
+      "lastRecalledAt": "2026-04-13T10:02:58.797Z",
       "queryHashes": [
-        "c9bbe2017359"
+        "c9bbe2017359",
+        "46db410c0e32"
       ],
       "recallDays": [
-        "2026-04-10"
+        "2026-04-10",
+        "2026-04-13"
       ],
       "conceptTags": [
         "simples/heartbeats",
@@ -137,19 +141,21 @@
       "endLine": 156,
       "source": "memory",
       "snippet": "### Estado de Saúde do Servidor - n8n: ✅ Up 44h+, porta 5678 (localhost) - Evolution API: ✅ Up 44h+, porta 8080 - Traefik: ✅ Up 44h+, modo host (80/443) - OpenClaw Gateway: ✅ porta 18789 - SSH: ✅ portas 22 e 2222 - Disco: 12G usados / 96G total (13%) ### n8n — Configuração de Usuário - Owner: marcelo@leevrecorretora.com.br - DB: SQLite em /var/lib/docker/volumes/n8n_data/_data/database.sqlite - Projeto pessoal criado manualmente (ID: 7547749a-20dc-47c8-9e8a-01e5662691cd)",
-      "recallCount": 2,
+      "recallCount": 3,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1.6338940508113537,
+      "totalScore": 2.4393393484689128,
       "maxScore": 0.8169470254056769,
       "firstRecalledAt": "2026-04-12T17:06:07.168Z",
-      "lastRecalledAt": "2026-04-12T17:09:38.718Z",
+      "lastRecalledAt": "2026-04-13T21:12:31.228Z",
       "queryHashes": [
         "f5ef3e8857e5",
-        "d5837bcd7b72"
+        "d5837bcd7b72",
+        "742dd1b0ccbd"
       ],
       "recallDays": [
-        "2026-04-12"
+        "2026-04-12",
+        "2026-04-13"
       ],
       "conceptTags": [
         "gateway",
@@ -367,18 +373,21 @@
       "endLine": 18,
       "source": "memory",
       "snippet": "- Auditoria de acesso do HubSpot foi retomada com leitura inicial positiva: token/acesso funcionando e pipeline de negócios acessível; foi identificado um pipeline com estágios como Lead Recebido, Primeiro Contato, Simulação Enviada, Proposta Aceita, Contrato Assinado, Ganho e Perdido. Próximo passo acordado: aprofundar auditoria sem alterar nada e depois recomendar a adaptação ideal para consórcio. - Tarefa deixada explicitamente como pendente por Marcelo em 06/04: concluir depois o \"cérebro\" da Leevre com auditoria/recomendação final do HubSpot, estrutura do cérebro adaptada da Imersão, pipeline de consórcio, propriedades recomendadas no CRM e plano de 90 dias. Não implementar mudanças em",
-      "recallCount": 1,
+      "recallCount": 3,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.7419949086422157,
-      "maxScore": 0.7419949086422157,
+      "totalScore": 2.412670565638133,
+      "maxScore": 0.835396410390929,
       "firstRecalledAt": "2026-04-12T21:36:48.407Z",
-      "lastRecalledAt": "2026-04-12T21:36:48.407Z",
+      "lastRecalledAt": "2026-04-13T21:13:19.550Z",
       "queryHashes": [
-        "cee577634b27"
+        "cee577634b27",
+        "742dd1b0ccbd",
+        "56f3f1541c21"
       ],
       "recallDays": [
-        "2026-04-12"
+        "2026-04-12",
+        "2026-04-13"
       ],
       "conceptTags": [
         "token/acesso",
@@ -431,15 +440,16 @@
       "endLine": 88,
       "source": "memory",
       "snippet": "- memória estruturada em `memory/` - Foram criados e enviados ao GitHub materiais duráveis da Leevre, incluindo: - mapa do cérebro - visão e metas - métricas principais - pessoas-chave - decisões estratégicas - pipeline de consórcio - propriedades recomendadas do HubSpot - plano de 90 dias - rotinas operacionais e comerciais - pilares de conteúdo e tracking mínimo - FAQ inicial, triagem e handoff - mapa e identidade funcional dos agentes - primeiras skills autorais da Leevre - As primeiras skills autorais criadas para a Leevre foram: - `auditoria-hubspot-leevre` - `gestao-renovacoes-seguro` - `followup-consorcio` - `analise-concorrentes-conteudo` - `cons",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.7840656373044886,
+      "totalScore": 1.5462855572483825,
       "maxScore": 0.7840656373044886,
       "firstRecalledAt": "2026-04-13T00:11:56.763Z",
-      "lastRecalledAt": "2026-04-13T00:11:56.763Z",
+      "lastRecalledAt": "2026-04-13T21:35:56.297Z",
       "queryHashes": [
-        "05b79f927c69"
+        "05b79f927c69",
+        "075808b78c90"
       ],
       "recallDays": [
         "2026-04-13"
@@ -462,15 +472,18 @@
       "endLine": 12,
       "source": "memory",
       "snippet": "# 2026-04-13 ## Memórias duráveis - O acesso do `gog` ao Google Drive da conta `atendimento@leevrecorretora.com.br` foi concluído e validado com sucesso usando `GOG_KEYRING_PASSWORD` salvo em `/home/marcelo/.openclaw/.env`. - O link válido da pasta compartilhada da imersão passou a ser `1quUQlgQrfvyk4hENDVTUoHwEVOw_Nm0M` (`imersao-openclaw-negocios-main`). - Foram baixados 186 arquivos relevantes do Drive para `imports/drive-imersao-openclaw/` como biblioteca de referência, sem transformá-los em fonte de verdade da Leevre. - A partir desse material, foram adaptados para a estrutura da Leevre os blocos de processo de tráfego pago, biblioteca de ângulos, follow-up de leads esfriando, governa",
-      "recallCount": 1,
+      "recallCount": 4,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.8391543140482443,
+      "totalScore": 3.2442302269475034,
       "maxScore": 0.8391543140482443,
       "firstRecalledAt": "2026-04-13T01:23:06.185Z",
-      "lastRecalledAt": "2026-04-13T01:23:06.185Z",
+      "lastRecalledAt": "2026-04-13T10:14:54.704Z",
       "queryHashes": [
-        "c5330a4a630f"
+        "c5330a4a630f",
+        "37a96963e0aa",
+        "a2e10ccb0752",
+        "7a3193d9e34f"
       ],
       "recallDays": [
         "2026-04-13"
@@ -493,15 +506,16 @@
       "endLine": 67,
       "source": "memory",
       "snippet": "- Vieses a evitar: confirmation, recency, survivorship, authority ## Pendências abertas (carry-forward) - [ ] People API Google: ativar para gogcli whoami - [ ] WhatsApp: reescanear QR code da Evolution API quando Marcelo estiver disponível - [ ] Heartbeat com monitoramento de email — Marcelo perguntou, não confirmou ainda - [ ] CRM: plataforma não definida - [ ] Email marketing: plataforma não definida (Resend vs ActiveCampaign) ## Bloco financeiro — Marcelo (29/03/2026) ### Comissões consórcio - Servopa: 2% na venda + 2,7% na contemplação (sobre o crédito) - Itaú: 3,5% a 4% (sobre o crédito) - Bradesco: 4% (sobre o crédito) ### Comissões seguros - Automóvel, empresarial, responsabilid",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.800288409203808,
+      "totalScore": 1.5846655039551187,
       "maxScore": 0.800288409203808,
       "firstRecalledAt": "2026-04-13T01:23:06.185Z",
-      "lastRecalledAt": "2026-04-13T01:23:06.185Z",
+      "lastRecalledAt": "2026-04-13T09:49:35.883Z",
       "queryHashes": [
-        "c5330a4a630f"
+        "c5330a4a630f",
+        "37a96963e0aa"
       ],
       "recallDays": [
         "2026-04-13"
@@ -515,6 +529,258 @@
         "recency",
         "survivorship",
         "authority"
+      ]
+    },
+    "memory:memory/2026-04-06.md:1:9": {
+      "key": "memory:memory/2026-04-06.md:1:9",
+      "path": "memory/2026-04-06.md",
+      "startLine": 1,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "# 2026-04-06 - Marcelo compartilhou a planilha Google Sheets \"Produção\" com `atendimento@leevrecorretora.com.br`; o arquivo foi localizado via email de compartilhamento e acessado por export do Drive após limitação da API do Google Sheets. - Análise inicial da planilha \"Produção\": comissões históricas aproximadas por ano em `Fat.Analítico` foram 2021 ~R$93,9 mil, 2022 ~R$162,1 mil, 2023 ~R$155,3 mil, 2024 ~R$236,6 mil, 2025 ~R$519,3 mil, 2026 parcial ~R$151,3 mil. - Leitura estratégica da base: seguros sustentam o caixa/recorrência; consórcio é a principal alavanca de escala. - Análise de consórcio consolidada: 63 vendas identificadas, PL total aproximado de R$20,1 milhões, comissão total a",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.8842250641193256,
+      "maxScore": 0.8842250641193256,
+      "firstRecalledAt": "2026-04-13T09:49:35.883Z",
+      "lastRecalledAt": "2026-04-13T09:49:35.883Z",
+      "queryHashes": [
+        "37a96963e0aa"
+      ],
+      "recallDays": [
+        "2026-04-13"
+      ],
+      "conceptTags": [
+        "leevrecorretora.com.br",
+        "fat.analítico",
+        "caixa/recorrência",
+        "marcelo",
+        "compartilhou",
+        "planilha",
+        "google",
+        "sheets"
+      ]
+    },
+    "memory:memory/2026-04-04.md:1:9": {
+      "key": "memory:memory/2026-04-04.md:1:9",
+      "path": "memory/2026-04-04.md",
+      "startLine": 1,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "# Memória — 04/04/2026 - Preferência explícita do Marcelo: se uma tarefa parecer complexa demais, sugerir trocar o modelo para Anthropic antes de seguir. - Lastlink: login da área de membros foi validado em 04/04; o erro anterior era senha testada sem o `h` final. A senha correta fornecida pelo Marcelo funcionou e liberou acesso à aula 1. - Curso Lastlink \"Imersão OpenClaw nos Negócios\": aula 1 acessível em 04/04 com duração exibida de 3h13min e 4 anexos visíveis (`guia-cerebro.pdf`, `guia-onboarding.pdf`, `faq-imersao-dia1.pdf`, `apresentacao-dia1.pdf`). - Repositório GitHub identificado dentro da aula 1: `https://github.com/pixel-educacao/imersao-openclaw-negocios/tree/main/cerebro`. - Pl",
+      "recallCount": 5,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 3.8909926886901185,
+      "maxScore": 0.7946541532654616,
+      "firstRecalledAt": "2026-04-13T09:55:35.992Z",
+      "lastRecalledAt": "2026-04-13T21:35:31.819Z",
+      "queryHashes": [
+        "a2e10ccb0752",
+        "46db410c0e32",
+        "56f3f1541c21",
+        "c9d018bb5d8a",
+        "9be68e676208"
+      ],
+      "recallDays": [
+        "2026-04-13"
+      ],
+      "conceptTags": [
+        "04/04/2026",
+        "04/04",
+        "guia-cerebro.pdf",
+        "guia-onboarding.pdf",
+        "faq-imersao-dia1.pdf",
+        "apresentacao-dia1.pdf",
+        "memória",
+        "preferência"
+      ]
+    },
+    "memory:memory/2026-04-13.md:11:15": {
+      "key": "memory:memory/2026-04-13.md:11:15",
+      "path": "memory/2026-04-13.md",
+      "startLine": 11,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "- Foi criado `state/lacunas-criticas-para-escala-digital-leevre.md` para mapear as principais respostas que ainda faltam de Marcelo sobre oferta, ICP, funil, aquisição, unit economics e capacidade operacional. - Marcelo informou que a oferta atual da Leevre ainda vem majoritariamente do offline e que a migração para o online exige descobrir e testar a melhor estratégia, criativos e campanhas. - A tese de maior potencial digital aprovada por Marcelo é consórcio de imóvel com meia parcela até a contemplação, pela alavancagem financeira/patrimonial que isso gera. - O produto prioritário para os próximos ciclos é consórcio de imóvel, com carta média estimada entre R$ 200 mil e R$ 300 mil e comis",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.7783263361172207,
+      "maxScore": 0.7783263361172207,
+      "firstRecalledAt": "2026-04-13T10:13:09.154Z",
+      "lastRecalledAt": "2026-04-13T10:13:09.154Z",
+      "queryHashes": [
+        "c440e4f4e783"
+      ],
+      "recallDays": [
+        "2026-04-13"
+      ],
+      "conceptTags": [
+        "financeira/patrimonial",
+        "foi",
+        "criado",
+        "state",
+        "lacunas",
+        "criticas",
+        "escala",
+        "digital"
+      ]
+    },
+    "memory:memory/2026-03-28.md:91:117": {
+      "key": "memory:memory/2026-03-28.md:91:117",
+      "path": "memory/2026-03-28.md",
+      "startLine": 91,
+      "endLine": 117,
+      "source": "memory",
+      "snippet": "- Cobre custos pessoais + corretora com receita atual - Quer testar → medir → escalar ### Mudanças estruturais em andamento - Sala comercial alugada (escritório físico novo) - Irmão integrado ao time - Investindo em conhecimento (OpenClaw/Livri) ### Processos documentados - ZERO — tudo na cabeça - Reconhece que documentar é fundamental ### Maior risco percebido - Se perder na rotina e organização - Operação consumindo tempo de venda ### Tarefas operacionais que roubam tempo 1. Cálculo de seguros 2. Negociação e fechamento 3. Acompanhamento de parcelas 4. Sinistros 5. Emissão de notas fiscais 6. Fechamento e conciliação de comissão ### Planilha de vendas ano a ano - Marcelo vai compartil",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.8074622608062,
+      "maxScore": 0.8074622608062,
+      "firstRecalledAt": "2026-04-13T10:14:54.704Z",
+      "lastRecalledAt": "2026-04-13T10:14:54.704Z",
+      "queryHashes": [
+        "7a3193d9e34f"
+      ],
+      "recallDays": [
+        "2026-04-13"
+      ],
+      "conceptTags": [
+        "openclaw/livri",
+        "cobre",
+        "custos",
+        "pessoais",
+        "corretora",
+        "com",
+        "receita",
+        "atual"
+      ]
+    },
+    "memory:memory/2026-04-13.md:16:21": {
+      "key": "memory:memory/2026-04-13.md:16:21",
+      "path": "memory/2026-04-13.md",
+      "startLine": 16,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "- A adaptação estratégica recomendada foi priorizar no início primeiro imóvel e troca de patrimônio, deixando investidor e empresário como frente de expansão mais sofisticada. - Marcelo trouxe uma referência visual de framework de diagnóstico, estratégia de marca, aquisição e arquitetura de receita. A leitura aprovada foi absorver o princípio sistêmico, mas adaptar ao contexto consultivo da Leevre sem copiar lógica de creator/infoproduto. - A partir disso foram criados os documentos `areas/marketing/framework-marca-aquisicao-receita-leevre.md`, `areas/marketing/canais-objetivos-e-kpis-leevre.md` e `areas/marketing/territorio-de-marca-leevre.md`. - Marcelo informou que hoje a Leevre ainda não",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.8029575717433248,
+      "maxScore": 0.8029575717433248,
+      "firstRecalledAt": "2026-04-13T10:21:03.786Z",
+      "lastRecalledAt": "2026-04-13T10:21:03.786Z",
+      "queryHashes": [
+        "e4210151f5cb"
+      ],
+      "recallDays": [
+        "2026-04-13"
+      ],
+      "conceptTags": [
+        "creator/infoproduto",
+        "adaptação",
+        "estratégica",
+        "recomendada",
+        "foi",
+        "priorizar",
+        "início",
+        "primeiro"
+      ]
+    },
+    "memory:memory/2026-04-09.md:32:44": {
+      "key": "memory:memory/2026-04-09.md:32:44",
+      "path": "memory/2026-04-09.md",
+      "startLine": 32,
+      "endLine": 44,
+      "source": "memory",
+      "snippet": "- Administradoras: várias, incluindo Itaú, Bradesco, Servopa e Porto. - Outros negócios: não. - Maior dor atual: operação, especialmente controle de parcelas, pagamentos pendentes, cálculos, sinistros, conciliação de comissão e pagamentos. - Objetivo com a assistente: reduzir trabalho manual e repetitivo para liberar tempo para conteúdo e vendas. - Horário típico: 09:30 às 17:30 com 1h de almoço; prefere comunicação resumida e direta, e quando houver problema quer explicação breve com correção imediata. - Contexto pessoal relevante: casado, 4 filhos, católico. - Hoje não tem assistente administrativa além da própria assistente. - Ferramentas atuais: planilha, WhatsApp e Agger para multicálcu",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.7875981715200864,
+      "maxScore": 0.7875981715200864,
+      "firstRecalledAt": "2026-04-13T10:21:03.786Z",
+      "lastRecalledAt": "2026-04-13T10:21:03.786Z",
+      "queryHashes": [
+        "e4210151f5cb"
+      ],
+      "recallDays": [
+        "2026-04-13"
+      ],
+      "conceptTags": [
+        "administradoras",
+        "várias",
+        "incluindo",
+        "itaú",
+        "bradesco",
+        "servopa",
+        "porto",
+        "outros"
+      ]
+    },
+    "memory:memory/2026-04-13.md:16:22": {
+      "key": "memory:memory/2026-04-13.md:16:22",
+      "path": "memory/2026-04-13.md",
+      "startLine": 16,
+      "endLine": 22,
+      "source": "memory",
+      "snippet": "- A adaptação estratégica recomendada foi priorizar no início primeiro imóvel e troca de patrimônio, deixando investidor e empresário como frente de expansão mais sofisticada. - Marcelo trouxe uma referência visual de framework de diagnóstico, estratégia de marca, aquisição e arquitetura de receita. A leitura aprovada foi absorver o princípio sistêmico, mas adaptar ao contexto consultivo da Leevre sem copiar lógica de creator/infoproduto. - A partir disso foram criados os documentos `areas/marketing/framework-marca-aquisicao-receita-leevre.md`, `areas/marketing/canais-objetivos-e-kpis-leevre.md` e `areas/marketing/territorio-de-marca-leevre.md`. - Em seguida, a estratégia foi desdobrada para",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.7710375491583393,
+      "maxScore": 0.7710375491583393,
+      "firstRecalledAt": "2026-04-13T14:15:50.399Z",
+      "lastRecalledAt": "2026-04-13T14:15:50.399Z",
+      "queryHashes": [
+        "6f0941238296"
+      ],
+      "recallDays": [
+        "2026-04-13"
+      ],
+      "conceptTags": [
+        "creator/infoproduto",
+        "adaptação",
+        "estratégica",
+        "recomendada",
+        "foi",
+        "priorizar",
+        "início",
+        "primeiro"
+      ]
+    },
+    "memory:memory/2026-04-12.md:20:50": {
+      "key": "memory:memory/2026-04-12.md:20:50",
+      "path": "memory/2026-04-12.md",
+      "startLine": 20,
+      "endLine": 50,
+      "source": "memory",
+      "snippet": "- `skills/` - memória estruturada em `memory/` - Foram criados e enviados ao GitHub materiais duráveis da Leevre, incluindo: - mapa do cérebro - visão e metas - métricas principais - pessoas-chave - decisões estratégicas - pipeline de consórcio - propriedades recomendadas do HubSpot - plano de 90 dias - rotinas operacionais e comerciais - pilares de conteúdo e tracking mínimo - FAQ inicial, triagem e handoff - mapa e identidade funcional dos agentes - primeiras skills autorais da Leevre - As primeiras skills autorais criadas para a Leevre foram: - `auditoria-hubspot-leevre` - `gestao-renovacoes-seguro` - `followup-consorcio` - `analise-concorrentes-conte",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.7610352591550326,
+      "maxScore": 0.7610352591550326,
+      "firstRecalledAt": "2026-04-13T21:35:56.297Z",
+      "lastRecalledAt": "2026-04-13T21:35:56.297Z",
+      "queryHashes": [
+        "075808b78c90"
+      ],
+      "recallDays": [
+        "2026-04-13"
+      ],
+      "conceptTags": [
+        "pessoas-chave",
+        "auditoria-hubspot-leevre",
+        "gestao-renovacoes-seguro",
+        "followup-consorcio",
+        "analise-concorrentes-conte",
+        "skills",
+        "memória",
+        "estruturada"
       ]
     }
   }
