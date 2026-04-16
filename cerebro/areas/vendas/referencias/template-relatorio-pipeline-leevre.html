@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Relatório Pipeline Leevre</title>
+  <style>
+    :root {
+      --bg: #0A0E2A;
+      --panel: #121936;
+      --panel-2: #182044;
+      --text: #F5F7FB;
+      --muted: #A9B3C7;
+      --blue: #60A5FA;
+      --green: #22C55E;
+      --yellow: #F59E0B;
+      --red: #EF4444;
+      --border: rgba(255,255,255,0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    .page {
+      width: 100%;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 32px;
+    }
+    .header {
+      margin-bottom: 24px;
+    }
+    .title {
+      font-size: 28px;
+      font-weight: 800;
+      margin: 0 0 8px;
+    }
+    .subtitle {
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      margin: 24px 0;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 18px;
+    }
+    .card .label {
+      color: var(--muted);
+      font-size: 12px;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+    .card .value {
+      font-size: 28px;
+      font-weight: 800;
+    }
+    .card.blue { border-left: 6px solid var(--blue); }
+    .card.green { border-left: 6px solid var(--green); }
+    .card.yellow { border-left: 6px solid var(--yellow); }
+    .card.red { border-left: 6px solid var(--red); }
+    .section {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px;
+      margin: 18px 0;
+    }
+    .section h2 {
+      margin: 0 0 14px;
+      font-size: 18px;
+    }
+    .urgency-bar {
+      width: 100%;
+      height: 18px;
+      border-radius: 999px;
+      overflow: hidden;
+      background: #0d1330;
+      display: flex;
+      margin-top: 10px;
+    }
+    .u-red { background: var(--red); }
+    .u-yellow { background: var(--yellow); }
+    .u-blue { background: var(--blue); }
+    .u-green { background: var(--green); }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+    th, td {
+      text-align: left;
+      padding: 12px 10px;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+    }
+    th { color: var(--muted); font-weight: 600; }
+    .badge {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .badge.red { background: rgba(239,68,68,.18); color: #FCA5A5; }
+    .badge.yellow { background: rgba(245,158,11,.18); color: #FCD34D; }
+    .badge.blue { background: rgba(96,165,250,.18); color: #93C5FD; }
+    .badge.green { background: rgba(34,197,94,.18); color: #86EFAC; }
+    ul { margin: 0; padding-left: 18px; }
+    li { margin: 8px 0; }
+    @media print {
+      .page { max-width: none; padding: 20px; }
+      .grid { grid-template-columns: repeat(4, 1fr); }
+      .section, .card { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="header">
+      <h1 class="title">Relatório de Pipeline, Leevre</h1>
+      <div class="subtitle">Período: [preencher] • Gerado em: [preencher]</div>
+    </header>
+
+    <section class="grid">
+      <div class="card blue"><div class="label">Leads novos</div><div class="value">12</div></div>
+      <div class="card yellow"><div class="label">Simulações enviadas</div><div class="value">5</div></div>
+      <div class="card red"><div class="label">Negociações travadas</div><div class="value">3</div></div>
+      <div class="card green"><div class="label">Fechamentos</div><div class="value">2</div></div>
+    </section>
+
+    <section class="section">
+      <h2>Resumo executivo</h2>
+      <p>O principal ponto de atenção do período está em negociação e fechamento. O foco recomendado é reduzir tempo de resposta, garantir próxima ação para simulações enviadas e tratar objeções recorrentes com mais velocidade.</p>
+    </section>
+
+    <section class="section">
+      <h2>Barra de urgência</h2>
+      <div class="urgency-bar">
+        <div class="u-red" style="width: 30%"></div>
+        <div class="u-yellow" style="width: 25%"></div>
+        <div class="u-blue" style="width: 20%"></div>
+        <div class="u-green" style="width: 25%"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Tabela operacional</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Lead</th>
+            <th>Estágio</th>
+            <th>Urgência</th>
+            <th>Próxima ação</th>
+            <th>Responsável</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Lead Exemplo 1</td>
+            <td>Negociação</td>
+            <td><span class="badge red">Alta</span></td>
+            <td>Retomar objeção de prazo ainda hoje</td>
+            <td>Marcelo</td>
+          </tr>
+          <tr>
+            <td>Lead Exemplo 2</td>
+            <td>Simulação enviada</td>
+            <td><span class="badge yellow">Média</span></td>
+            <td>Follow-up até o fim do dia</td>
+            <td>Gustavo</td>
+          </tr>
+          <tr>
+            <td>Lead Exemplo 3</td>
+            <td>Qualificado</td>
+            <td><span class="badge blue">Monitorar</span></td>
+            <td>Enviar cenário e pedir retorno</td>
+            <td>Marcelo</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2>Recomendações</h2>
+      <ul>
+        <li>Garantir resposta no mesmo dia para todo lead novo.</li>
+        <li>Não deixar simulação sem próxima ação definida.</li>
+        <li>Registrar motivo dominante das travas em negociação.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Próximos passos</h2>
+      <ul>
+        <li>Medir tempo médio de resposta.</li>
+        <li>Atualizar pipeline ao fim do dia.</li>
+        <li>Gerar PDF e compartilhar com leitura rápida.</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
