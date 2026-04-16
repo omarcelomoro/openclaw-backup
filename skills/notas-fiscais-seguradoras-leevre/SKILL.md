@@ -30,6 +30,7 @@ Agente de Operações.
 - status operacional registrado
 
 ## Fontes de verdade
+- `references/fontes-oficiais.md`
 - `cerebro/referencias/seguradoras/`
 - `cerebro/referencias/notas-fiscais/`
 - `state/emitir_nf_virei_contador.py`
@@ -65,6 +66,8 @@ Agente de Operações.
 - `references/fluxo.md`
 - `references/seguradoras.md`
 - `references/checklist-por-seguradora.md`
+- `references/fontes-oficiais.md`
+- `references/evidencia-e-saida.md`
 
 ## Saída padronizada por emissão
 - seguradora
