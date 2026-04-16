@@ -69,6 +69,12 @@ Agente de Operações.
 - `references/fontes-oficiais.md`
 - `references/evidencia-e-saida.md`
 
+## Fluxos operacionais por seguradora
+- `references/seguradoras/porto.md`
+- `references/seguradoras/banestes.md`
+- `references/seguradoras/allianz.md`
+- `references/seguradoras/hdi.md`
+
 ## Saída padronizada por emissão
 - seguradora
 - competência
