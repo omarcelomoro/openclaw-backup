@@ -19,3 +19,6 @@ media/
 # Secrets e credenciais
 gog_client_secret.json
 credentials/
+
+# Ruido automatico de memoria
+memory/.dreams/
