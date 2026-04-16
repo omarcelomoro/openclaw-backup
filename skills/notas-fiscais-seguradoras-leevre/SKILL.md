@@ -61,6 +61,21 @@ Agente de Operações.
 - Bradesco Seguros
 - Yelum (operacional parcial, fiscal pendente)
 
+## Referências internas da skill
+- `references/fluxo.md`
+- `references/seguradoras.md`
+- `references/checklist-por-seguradora.md`
+
+## Saída padronizada por emissão
+- seguradora
+- competência
+- valor bruto
+- modo de execução
+- status final: emitida ou bloqueada
+- número da nota, quando houver
+- pendências encontradas
+- caminho da evidência salva
+
 ## Evolução prevista
 - automação browser para captura de valores
 - descoberta assistida de IDs internos da Virei via DevTools/Network
