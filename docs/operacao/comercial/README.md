@@ -2,6 +2,9 @@
 
 Documentação operacional para cadência comercial, preparação e leitura semanal.
 
+## Objetivo
+Centralizar materiais de acompanhamento comercial que ajudem a manter ritmo, clareza e leitura gerencial.
+
 ## Comece por aqui
 - `00-comece-aqui.md`
 

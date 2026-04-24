@@ -2,6 +2,9 @@
 
 Documentação operacional para workflows de conteúdo, batch e testes práticos.
 
+## Objetivo
+Centralizar rotinas de conteúdo e marketing que possam ser repetidas, avaliadas e melhoradas com clareza.
+
 ## Comece por aqui
 - `00-comece-aqui.md`
 

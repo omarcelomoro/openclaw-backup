@@ -1,6 +1,9 @@
 # Comece aqui — HubSpot Consórcio Leevre
 
-Se você quer entender rápido ou executar sem se perder, siga esta ordem:
+Se você quer entender rápido ou executar sem se perder, siga esta ordem.
+
+## Objetivo
+Transformar o HubSpot em CRM de consórcio da Leevre com clareza comercial, follow-up visível e caminho até fechamento.
 
 ## Leitura mais rápida
 1. `04-folha-de-cola.md` — visão curtíssima
