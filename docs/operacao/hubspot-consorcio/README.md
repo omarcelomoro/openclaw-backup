@@ -3,6 +3,7 @@
 Documentação operacional organizada para leitura e versionamento.
 
 ## Comece por aqui
+- `mapa.md` — visão da área
 - `00-comece-aqui.md` — atalho para leitura rápida e execução
 
 ## Ordem de leitura recomendada

@@ -14,6 +14,12 @@ Centralizar documentação operacional que Marcelo consiga abrir rápido, entend
 - `comercial/` — cadência comercial e leitura semanal
 - `conteudo-marketing/` — workflows operacionais de conteúdo e marketing
 
+## Padrão das áreas
+Cada área deve ter:
+- `mapa.md`
+- `00-comece-aqui.md`
+- `README.md`
+
 ## Regra de publicação
 Aqui entram apenas materiais seguros para versionamento:
 - processos

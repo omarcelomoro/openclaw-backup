@@ -6,6 +6,7 @@ Documentação operacional para workflows de conteúdo, batch e testes práticos
 Centralizar rotinas de conteúdo e marketing que possam ser repetidas, avaliadas e melhoradas com clareza.
 
 ## Comece por aqui
+- `mapa.md`
 - `00-comece-aqui.md`
 
 ## Arquivos

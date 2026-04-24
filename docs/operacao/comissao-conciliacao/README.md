@@ -6,6 +6,7 @@ Documentação operacional para fechamento mensal, conciliação e geração de 
 Organizar a frente operacional de comissão e conciliação em materiais que sejam fáceis de consultar e executar.
 
 ## Comece por aqui
+- `mapa.md`
 - `00-comece-aqui.md`
 
 ## Arquivos
