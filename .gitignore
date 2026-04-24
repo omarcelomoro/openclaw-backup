@@ -25,7 +25,6 @@ gog_client_secret.json
 credentials/
 
 # Clones/imports locais e ferramentas auxiliares
-browser-harness/
 imports/github-references/
 
 # Ruido automatico de memoria
