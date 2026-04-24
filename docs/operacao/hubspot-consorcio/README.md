@@ -2,6 +2,9 @@
 
 Documentação operacional organizada para leitura e versionamento.
 
+## Comece por aqui
+- `00-comece-aqui.md` — atalho para leitura rápida e execução
+
 ## Ordem de leitura recomendada
 1. `01-estrutura-final.md` — visão final do pipeline
 2. `02-plano-implantacao.md` — ordem real de implantação
