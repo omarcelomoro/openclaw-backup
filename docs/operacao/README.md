@@ -7,6 +7,9 @@ Esta pasta reúne materiais operacionais limpos, pensados para leitura fácil e 
 
 ## Conteúdos atuais
 - `hubspot-consorcio/` — estrutura, implantação e execução do HubSpot de consórcio da Leevre
+- `comissao-conciliacao/` — fechamento, conciliação e relatórios
+- `comercial/` — cadência comercial e leitura semanal
+- `conteudo-marketing/` — workflows operacionais de conteúdo e marketing
 
 ## Objetivo desta área
 Centralizar documentação operacional que Marcelo consiga abrir rápido, entender rápido e usar sem depender do servidor.
