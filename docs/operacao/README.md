@@ -6,6 +6,7 @@ Esta pasta reúne materiais operacionais limpos, pensados para leitura fácil e 
 Centralizar documentação operacional que Marcelo consiga abrir rápido, entender rápido e usar sem depender do servidor.
 
 ## Comece por aqui
+- `mapa.md`
 - `00-comece-aqui.md`
 
 ## Áreas atuais

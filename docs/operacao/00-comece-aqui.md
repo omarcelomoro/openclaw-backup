@@ -2,6 +2,8 @@
 
 Esta é a porta de entrada da documentação operacional publicada no GitHub.
 
+Se quiser visão geral antes de navegar, abra também `mapa.md`.
+
 ## Melhor forma de usar
 Se quiser ir direto ao ponto, abra a área mais próxima do problema que quer resolver.
 
