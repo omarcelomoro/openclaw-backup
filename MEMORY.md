@@ -20,6 +20,11 @@
 
 ## 🔄 Estado atual
 
+### ✅ Validado
+- **Gmail + OpenClaw + Claude + Telegram:** Integração funcional (2026-04-18)
+- Envio de e-mail corporativo via GOG CLI
+- Autenticação com Google Cloud Project livri-491419
+
 ### Ativos
 - Reconstrução do cérebro/continuidade da Livri
 - Validação do backup GitHub antigo

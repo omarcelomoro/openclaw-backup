@@ -18,3 +18,6 @@ O estado atual do workspace não reflete toda a riqueza do cérebro histórico. 
 
 ### Revisar `tools.exec.security` antes de assumir permissões amplas (09/04/2026)
 Existe histórico de `tools.exec.security = full`. Isso precisa ser confirmado no estado atual antes de ser tratado como desejável.
+
+### Upgrade do OpenClaw deve seguir ritual de backup e validação (14/04/2026)
+Quando Marcelo pedir upgrade/update do OpenClaw, a sequência padrão deve ser: validar Git no workspace, fazer backup local e push para o GitHub antes da atualização, executar `npm install -g openclaw@latest` e, se houver `EACCES`, orientar o uso de `sudo`, reiniciar o gateway, validar com `openclaw gateway status`, `openclaw status` e confirmar reachability real com `openclaw gateway probe` antes de considerar encerrado.

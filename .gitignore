@@ -15,6 +15,10 @@ media/
 # Cache e logs
 *.log
 .openclaw/
+tmp/
+
+# Saídas transitórias de testes
+state/nf-teste/
 
 # Secrets e credenciais
 gog_client_secret.json
