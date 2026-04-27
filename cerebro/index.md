@@ -4,11 +4,13 @@ Sistema operacional vivo da Leevre.
 
 ## Estrutura atual
 
-- `onboarding/` - entrada rápida para entender a empresa
-- `empresa/` - contexto institucional e decisões
+- `empresa/` - contexto institucional e decisões transversais
 - `areas/` - operação por função
 - `agentes/` - papéis e responsabilidades
-- `referencias/` - bases de apoio consolidadas
+- `skills/` - capacidades reutilizáveis
+- `rotinas/` - cadências e checklists repetíveis
+- `memory/` - memória viva, projetos e contexto acumulado
+- `state/` - bruto, testes e artefatos temporários
 
 ## Regras
 
@@ -20,12 +22,14 @@ Sistema operacional vivo da Leevre.
 ## Áreas atuais
 
 - marketing
-- operações
 - vendas
+- operacoes
+- atendimento
+- produto
 
 ## Próxima evolução
 
-- consolidar referências de seguradoras
-- consolidar padrões fiscais de NF
-- tornar onboarding reutilizável
-- conectar cérebro, skills e operação
+- consolidar marketing, vendas e operacoes como leitura canônica
+- amadurecer atendimento sem inventar volume artificial
+- amadurecer produto como camada de melhorias e automações
+- conectar cérebro, skills, ferramentas e operação real

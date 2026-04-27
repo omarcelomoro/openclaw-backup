@@ -29,3 +29,7 @@ imports/github-references/
 
 # Ruido automatico de memoria
 memory/.dreams/
+
+# Artefatos locais que não devem subir
+browser-harness/
+downloads/
