@@ -33,3 +33,12 @@ memory/.dreams/
 # Artefatos locais que não devem subir
 browser-harness/
 downloads/
+
+# Local virtual environments
+.venvs/
+
+# Agent auth/secrets
+agents/*/auth-profiles.json
+agents/*/auth-state.json
+**/auth-profiles.json
+**/auth-state.json

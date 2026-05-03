@@ -12,7 +12,9 @@
 
 | Tópico | ID | Uso |
 |--------|----|-----|
-| (principal) | 16 | Configuração / Livri |
+| CEO | 16 | Fórum CEO / decisões e comandos para Livri |
+| Marketing | 6 | Hub de alertas de marketing, renovações, leads, relatórios |
+| (outros tópicos) | * | Configurado para ingestão/resposta sem menção dentro do grupo privado |
 
 ## Contas
 

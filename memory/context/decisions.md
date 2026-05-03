@@ -68,3 +68,7 @@ Marcelo explicitou que já perdeu trabalhos por esquecimento e também deixou ta
 
 ## Cada área da documentação operacional deve ter seu próprio mapa.md (24/04/2026)
 Decisão aprovada por Marcelo: cada área publicada em `docs/operacao/` deve ter um `mapa.md` próprio, além de `00-comece-aqui.md` e `README.md`. O `mapa.md` funciona como visão da área: objetivo, o que resolve, documentos principais, melhor ponto de entrada, status e próximo passo.
+
+## 2026-04-30 — Modelo padrão preferido
+- Marcelo definiu que a Livri deve usar sempre **OpenRouter Kimi 2.6** por padrão: `openrouter/moonshotai/kimi-k2.6`.
+- Quando houver necessidade específica, Marcelo avisará para mudar de modelo pontualmente.

@@ -24,8 +24,12 @@
 - ✅ Evolution API (WhatsApp) — número 5527996101272
 - ✅ Google Drive — marcelo@leevrecorretora.com.br
 - ✅ Gmail + Calendar — via GOG CLI
-- ⏳ n8n — pendente de instalar
+- ✅ n8n — instalado, porta 5678 aberta, acessível externamente em http://187.77.247.207:5678
+- ✅ Brevo — chave API atualizada e validada; envio transacional testado
+- ✅ Evolution → n8n — webhook configurado para `http://187.77.247.207:5678/webhook/lead-whatsapp`
+- ✅ n8n → HubSpot/Brevo — workflows criados usando variáveis de ambiente seguras
 - ⏳ Google Sheets API — pendente de ativar
+
 
 ## Fluxo SDR planejado (pendente de implementar)
 Lead WhatsApp → Agente IA (qualifica) → n8n → HubSpot (deal criado) → notifica Marcelo no Telegram
