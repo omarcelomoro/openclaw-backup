@@ -19,3 +19,12 @@
 ## Depois / estrutural
 - [ ] Consolidar mapas das ferramentas principais da operação
 - [x] Criar rotina leve de revisão de pendências e itens parados — ver `rotinas/rotina-operacional-revisao-pendencias-followup-leevre.md`
+
+## Para amanhã — 2026-05-04
+- [ ] Finalizar auditoria do ClawSweeper e transformar o método em rotina interna da Leevre/OpenClaw, sem instalar o bot por enquanto.
+- [ ] Decidir o que fazer com o plugin `crabbox`, pois a auditoria marcou uso de `child_process` como crítico.
+- [ ] Avaliar criação de `plugins.allow` explícito para reduzir superfície de plugin.
+- [ ] Corrigir/validar pinagem do `lossless-claw` no registro para remover alerta de spec npm não pinado.
+- [ ] Rodar nova auditoria `openclaw security audit --deep` depois das correções e registrar resultado.
+- [ ] Consolidar template operacional inspirado em `/goal`: contexto aquecido → definição quantificada de pronto → caça/diagnóstico → correção com gates.
+- [ ] Decidir atualização/uso do Crabbox: atual local `0.3.0`, release pública `0.4.0`; avaliar se mantém desabilitado, atualiza plugin/CLI ou remove enquanto não houver uso real.
