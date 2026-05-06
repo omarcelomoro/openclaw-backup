@@ -1,0 +1,60 @@
+{
+  "agents": {
+    "list_add_or_merge": [
+      {
+        "id": "leevre-operacional",
+        "name": "Operacional Leevre",
+        "workspace": "/root/.openclaw/workspace",
+        "agentDir": "/root/.openclaw/workspace/agents/leevre-operacional",
+        "model": "openai-codex/gpt-5.5",
+        "thinkingDefault": "medium",
+        "reasoningDefault": "off",
+        "memorySearch": { "enabled": false },
+        "identity": { "name": "Operacional", "emoji": "🧾" },
+        "tools": { "profile": "full" }
+      },
+      {
+        "id": "leevre-comercial",
+        "name": "Comercial Consórcio Leevre",
+        "workspace": "/root/.openclaw/workspace",
+        "agentDir": "/root/.openclaw/workspace/agents/leevre-comercial",
+        "model": "openai-codex/gpt-5.5",
+        "thinkingDefault": "medium",
+        "reasoningDefault": "off",
+        "memorySearch": { "enabled": false },
+        "identity": { "name": "Comercial", "emoji": "🤝" },
+        "tools": { "profile": "full" }
+      },
+      {
+        "id": "leevre-marketing",
+        "name": "Marketing Operacional Leevre",
+        "workspace": "/root/.openclaw/workspace",
+        "agentDir": "/root/.openclaw/workspace/agents/leevre-marketing",
+        "model": "openai-codex/gpt-5.5",
+        "thinkingDefault": "medium",
+        "reasoningDefault": "off",
+        "memorySearch": { "enabled": false },
+        "identity": { "name": "Marketing", "emoji": "📣" },
+        "tools": { "profile": "full" }
+      },
+      {
+        "id": "leevre-triagem",
+        "name": "Triagem Inbox Leevre",
+        "workspace": "/root/.openclaw/workspace",
+        "agentDir": "/root/.openclaw/workspace/agents/leevre-triagem",
+        "model": "openai-codex/gpt-5.5",
+        "thinkingDefault": "medium",
+        "reasoningDefault": "off",
+        "memorySearch": { "enabled": false },
+        "identity": { "name": "Triagem", "emoji": "📬" },
+        "tools": { "profile": "full" }
+      }
+    ]
+  },
+  "telegram_group_topics_to_bind_after_topic_ids_exist": {
+    "Operacional": "leevre-operacional",
+    "Comercial": "leevre-comercial",
+    "Triagem": "leevre-triagem",
+    "Marketing operacional": "leevre-marketing ou manter kotler no topic 6"
+  }
+}
