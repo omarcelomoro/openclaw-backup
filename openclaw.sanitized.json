@@ -29,7 +29,7 @@
         "anthropic/claude-sonnet-4-6": {},
         "anthropic/claude-sonnet-4": {}
       },
-      "workspace": "/root/.openclaw/workspace",
+      "workspace": "/home/marcelo/.openclaw/workspace",
       "contextTokens": "REPLACE_ME",
       "compaction": {
         "mode": "default",

@@ -4,8 +4,8 @@
       {
         "id": "leevre-operacional",
         "name": "Operacional Leevre",
-        "workspace": "/root/.openclaw/workspace",
-        "agentDir": "/root/.openclaw/workspace/agents/leevre-operacional",
+        "workspace": "/home/marcelo/.openclaw/workspace",
+        "agentDir": "/home/marcelo/.openclaw/workspace/agents/leevre-operacional",
         "model": "openai-codex/gpt-5.5",
         "thinkingDefault": "medium",
         "reasoningDefault": "off",
@@ -16,8 +16,8 @@
       {
         "id": "leevre-comercial",
         "name": "Comercial Consórcio Leevre",
-        "workspace": "/root/.openclaw/workspace",
-        "agentDir": "/root/.openclaw/workspace/agents/leevre-comercial",
+        "workspace": "/home/marcelo/.openclaw/workspace",
+        "agentDir": "/home/marcelo/.openclaw/workspace/agents/leevre-comercial",
         "model": "openai-codex/gpt-5.5",
         "thinkingDefault": "medium",
         "reasoningDefault": "off",
@@ -28,8 +28,8 @@
       {
         "id": "leevre-marketing",
         "name": "Marketing Operacional Leevre",
-        "workspace": "/root/.openclaw/workspace",
-        "agentDir": "/root/.openclaw/workspace/agents/leevre-marketing",
+        "workspace": "/home/marcelo/.openclaw/workspace",
+        "agentDir": "/home/marcelo/.openclaw/workspace/agents/leevre-marketing",
         "model": "openai-codex/gpt-5.5",
         "thinkingDefault": "medium",
         "reasoningDefault": "off",
@@ -40,8 +40,8 @@
       {
         "id": "leevre-triagem",
         "name": "Triagem Inbox Leevre",
-        "workspace": "/root/.openclaw/workspace",
-        "agentDir": "/root/.openclaw/workspace/agents/leevre-triagem",
+        "workspace": "/home/marcelo/.openclaw/workspace",
+        "agentDir": "/home/marcelo/.openclaw/workspace/agents/leevre-triagem",
         "model": "openai-codex/gpt-5.5",
         "thinkingDefault": "medium",
         "reasoningDefault": "off",

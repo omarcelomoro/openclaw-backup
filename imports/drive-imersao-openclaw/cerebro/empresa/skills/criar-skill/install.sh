@@ -64,7 +64,7 @@ install_claude_code() {
 
 find_openclaw_workspace() {
   # Tenta detectar automaticamente
-  local base="/root/.openclaw"
+  local base="/home/marcelo/.openclaw"
   [ ! -d "$base" ] && base="$HOME/.openclaw"
   [ ! -d "$base" ] && return 1
 
@@ -141,7 +141,7 @@ if [ -d "$HOME/.claude" ] || command -v claude &>/dev/null; then
 fi
 
 # OpenClaw: diretório .openclaw existe
-if [ -d "/root/.openclaw" ] || [ -d "$HOME/.openclaw" ]; then
+if [ -d "/home/marcelo/.openclaw" ] || [ -d "$HOME/.openclaw" ]; then
   OPENCLAW=true
 fi
 
