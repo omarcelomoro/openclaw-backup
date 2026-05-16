@@ -72,3 +72,19 @@ Decisão aprovada por Marcelo: cada área publicada em `docs/operacao/` deve ter
 ## 2026-04-30 — Modelo padrão preferido
 - Marcelo definiu que a Livri deve usar sempre **OpenRouter Kimi 2.6** por padrão: `openrouter/moonshotai/kimi-k2.6`.
 - Quando houver necessidade específica, Marcelo avisará para mudar de modelo pontualmente.
+
+## 2026-05-15 — Modelo Codex GPT-5.5 e restauração de contexto
+- Marcelo pediu restauração de contexto após troca de modelo, com reindexação forçada, warm-up e revisão do boot.
+- O ID solicitado `openai-codex/gpt-5.5` foi aceito no arquivo de config, mas rejeitado pelo runtime da sessão como `not allowed`.
+- O estado operacional suportado e ativo nesta sessão permanece `openai/gpt-5.5` com Runtime `OpenAI Codex`.
+- Sempre validar troca de modelo em três níveis: `openclaw models status`, status da sessão ativa e status do Gateway.
+
+## 2026-05-15 — Preferência de modelo por uso
+- Dia a dia da Livri: usar GPT 5.5.
+- Crons e tarefas recorrentes: preferir GPT 5.4 quando o cron for do tipo `agentTurn` e aceitar `payload.model`.
+- Crons `systemEvent` rodam dentro da sessão principal e herdam o modelo ativo; não converter para `agentTurn` só para trocar modelo sem necessidade operacional.
+
+## 2026-05-15 — Voz operacional da Livri
+- Marcelo prefere uma CoS parceira, direta, competente e não bajuladora.
+- Crítica útil não deve ser suavizada quando aumenta clareza, foco, velocidade ou qualidade.
+- Não usar elogio corporativo estéril; irreverência e palavrão só quando couber naturalmente, sem forçar.

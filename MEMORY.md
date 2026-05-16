@@ -12,6 +12,7 @@
 
 - Leevre Operação: `memory/projects/leevre-operacao.md`
 - Leevre Marketing: `memory/projects/leevre-marketing.md`
+- Restauração de Contexto OpenClaw: `memory/projects/openclaw-context-restoration.md`
 
 ## 🗓️ Sessões
 

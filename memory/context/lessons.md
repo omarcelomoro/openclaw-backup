@@ -37,3 +37,6 @@ Existe histórico de `tools.exec.security = full`. Isso precisa ser confirmado n
 
 ### Upgrade do OpenClaw deve seguir ritual de backup e validação (14/04/2026)
 Quando Marcelo pedir upgrade/update do OpenClaw, a sequência padrão deve ser: validar Git no workspace, fazer backup local e push para o GitHub antes da atualização, executar `npm install -g openclaw@latest` e, se houver `EACCES`, orientar o uso de `sudo`, reiniciar o gateway, validar com `openclaw gateway status`, `openclaw status` e confirmar reachability real com `openclaw gateway probe` antes de considerar encerrado.
+
+### Troca de modelo exige reindexação, warm-up e validação em camadas (15/05/2026)
+Após troca de modelo, perda de continuidade pode vir de desalinhamento entre índice semântico, memória recente, boot de contexto e estilo de retrieval do novo modelo. O ritual recomendado é: reindexar com `openclaw memory index --force`, aquecer a sessão com contexto real, validar arquivos de boot, confirmar modelo em status e registrar decisões antes de compactação.
